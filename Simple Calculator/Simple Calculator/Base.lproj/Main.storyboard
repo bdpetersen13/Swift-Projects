@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -21,8 +22,8 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7z5-Xa-I7g">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="135.66666666666666"/>
                                         <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c1k-df-mWk">
-                                                <rect key="frame" x="20" y="0.0" width="353" height="135.66666666666666"/>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c1k-df-mWk">
+                                                <rect key="frame" x="0.0" y="20.000000000000007" width="373" height="115.66666666666669"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="textColor" red="0.95686274510000002" green="0.93333333330000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="55"/>
@@ -33,11 +34,9 @@
                                             </textField>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="c1k-df-mWk" firstAttribute="leading" secondItem="7z5-Xa-I7g" secondAttribute="leading" constant="20" id="3c9-NX-zg8"/>
-                                            <constraint firstAttribute="trailing" secondItem="c1k-df-mWk" secondAttribute="trailing" constant="20" id="5t7-a8-e6C"/>
-                                            <constraint firstItem="c1k-df-mWk" firstAttribute="top" secondItem="7z5-Xa-I7g" secondAttribute="top" id="Os5-Fd-Aer"/>
+                                            <constraint firstItem="c1k-df-mWk" firstAttribute="top" secondItem="7z5-Xa-I7g" secondAttribute="top" constant="20" id="Os5-Fd-Aer"/>
                                             <constraint firstAttribute="bottom" secondItem="c1k-df-mWk" secondAttribute="bottom" id="bz2-dS-fxm"/>
-                                            <constraint firstItem="c1k-df-mWk" firstAttribute="leading" secondItem="7z5-Xa-I7g" secondAttribute="leading" constant="20" id="hPo-Rj-pSV"/>
+                                            <constraint firstItem="c1k-df-mWk" firstAttribute="leading" secondItem="7z5-Xa-I7g" secondAttribute="leading" id="hPo-Rj-pSV"/>
                                             <constraint firstAttribute="trailing" secondItem="c1k-df-mWk" secondAttribute="trailing" constant="20" id="ikN-ge-hEn"/>
                                         </constraints>
                                     </view>

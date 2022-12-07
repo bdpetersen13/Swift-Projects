@@ -48,6 +48,8 @@ class ViewController: UIViewController {
                 resultField.text = "8"
             case "9":
                 resultField.text = "9"
+            case ".":
+                resultField.text = resultField.text! + "."
             default:
                 break
             }
