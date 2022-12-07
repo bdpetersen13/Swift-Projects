@@ -106,7 +106,6 @@ class ViewController: UIViewController {
         resultField.text = String(signToggle)
     }
     
-    
     @IBAction func equalButtonPressed(_ sender: UIButton) {
         
         secondNumber = Double(resultField.text!)!
