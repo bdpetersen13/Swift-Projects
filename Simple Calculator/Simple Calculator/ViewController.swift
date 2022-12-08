@@ -10,6 +10,7 @@ import AVFoundation
 
 class ViewController: UIViewController {
     
+    // Initiating variables that will beused for the calculations
     var firstNumber = 0.0
     var secondNumber = 0.0
     var numberResult = 0.0
@@ -22,10 +23,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
 
+    // Defining the text field result where the calculation resutls can be seen
     @IBOutlet weak var resultField: UITextField!
     
+    // Adding functionality to the number buttons pressed
     @IBAction func buttonPressed(_ sender: UIButton) {
-        
         print(sender.currentTitle!)
         
         if (resultField.text == "0") {
@@ -82,18 +84,16 @@ class ViewController: UIViewController {
                 break
             }
         }
-          
+        
         playSound()
     }
     
+    // Adding funcitonality to the modifier buttons when pressed
     @IBAction func modifierButtonPressed(_ sender: UIButton) {
-        
         print(sender.currentTitle!)
         
         numberOperator = sender.currentTitle!
-        
         firstNumber = Double(resultField.text!)!
-        
         resultField.text = ""
         
         if (sender.currentTitle == "AC") {
@@ -101,11 +101,13 @@ class ViewController: UIViewController {
         }
     }
     
+    // Adding funcitionality to the +/- button when pressed
     @IBAction func signToggleNumber(_ sender: UIButton) {
         signToggle = Double(resultField.text!)! * -1
         resultField.text = String(signToggle)
     }
     
+    // Adding functionality to the equal button when pressed
     @IBAction func equalButtonPressed(_ sender: UIButton) {
         
         secondNumber = Double(resultField.text!)!
@@ -131,6 +133,7 @@ class ViewController: UIViewController {
         }
     }
     
+    // Function for playing sound when a button is pressed
     func playSound() {
         
         guard let url = Bundle.main.url(forResource: "click", withExtension: "wav") else
