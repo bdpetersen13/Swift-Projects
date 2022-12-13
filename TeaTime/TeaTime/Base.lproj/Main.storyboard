@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TeaTime" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="xng-25-d1x" userLabel="verticleStackView">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7hH-pH-a9R" userLabel="titleView">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="212.33333333333334"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Which type of tea are you brewing?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E8C-w7-7fL">
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="212.33333333333334"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <color key="textColor" red="0.97647058823529409" green="0.97647058823529409" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="E8C-w7-7fL" secondAttribute="trailing" id="7Z7-VR-qfx"/>
+                                            <constraint firstAttribute="bottom" secondItem="E8C-w7-7fL" secondAttribute="bottom" id="KR2-ei-OFZ"/>
+                                            <constraint firstItem="E8C-w7-7fL" firstAttribute="top" secondItem="7hH-pH-a9R" secondAttribute="top" id="Q7e-sa-MHa"/>
+                                            <constraint firstItem="E8C-w7-7fL" firstAttribute="leading" secondItem="7hH-pH-a9R" secondAttribute="leading" id="WZ2-9w-J06"/>
+                                        </constraints>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="aei-uh-9su" userLabel="teaStackViewOne">
+                                        <rect key="frame" x="0.0" y="213.33333333333331" width="393" height="212.33333333333331"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9h5-4A-VY4" userLabel="blackTeaView">
+                                                <rect key="frame" x="0.0" y="0.0" width="130.33333333333334" height="212.33333333333334"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Black_Tea-removebg" translatesAutoresizingMaskIntoConstraints="NO" id="ldb-Tr-xSp">
+                                                        <rect key="frame" x="20" y="20" width="112" height="123"/>
+                                                    </imageView>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ju4-Zb-yqs">
+                                                        <rect key="frame" x="20" y="20" width="112" height="123"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Black">
+                                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="teaSelection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dtd-ze-yK3"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="Ju4-Zb-yqs" secondAttribute="bottom" constant="69.333333333333343" id="Exx-Hz-uje"/>
+                                                    <constraint firstItem="Ju4-Zb-yqs" firstAttribute="trailing" secondItem="ldb-Tr-xSp" secondAttribute="trailing" id="GKc-Y2-a5M"/>
+                                                    <constraint firstItem="Ju4-Zb-yqs" firstAttribute="top" secondItem="ldb-Tr-xSp" secondAttribute="top" id="MUt-l4-hxc"/>
+                                                    <constraint firstItem="Ju4-Zb-yqs" firstAttribute="top" secondItem="9h5-4A-VY4" secondAttribute="top" constant="20" id="Nhq-CS-Vpz"/>
+                                                    <constraint firstItem="Ju4-Zb-yqs" firstAttribute="leading" secondItem="9h5-4A-VY4" secondAttribute="leading" constant="20" id="Npw-0S-6Bq"/>
+                                                    <constraint firstItem="Ju4-Zb-yqs" firstAttribute="bottom" secondItem="ldb-Tr-xSp" secondAttribute="bottom" id="Qcs-KN-4er"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Ju4-Zb-yqs" secondAttribute="trailing" constant="-1.6666666666666572" id="XJC-5b-aH0"/>
+                                                    <constraint firstItem="Ju4-Zb-yqs" firstAttribute="leading" secondItem="ldb-Tr-xSp" secondAttribute="leading" id="f6J-pW-i0W"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Ic-db-CMh" userLabel="greenTeaView">
+                                                <rect key="frame" x="131.33333333333331" y="0.0" width="130.33333333333331" height="212.33333333333334"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Green_Tea-removebg" translatesAutoresizingMaskIntoConstraints="NO" id="Xp4-he-tr0">
+                                                        <rect key="frame" x="20" y="20" width="112" height="123"/>
+                                                    </imageView>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SiG-ev-SY0" userLabel="Green">
+                                                        <rect key="frame" x="20" y="20" width="112" height="123"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Green">
+                                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="teaSelection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qSV-pV-rEq"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="SiG-ev-SY0" firstAttribute="bottom" secondItem="Xp4-he-tr0" secondAttribute="bottom" id="PSm-XF-8JA"/>
+                                                    <constraint firstItem="SiG-ev-SY0" firstAttribute="top" secondItem="2Ic-db-CMh" secondAttribute="top" constant="20" id="YFw-cX-7Ha"/>
+                                                    <constraint firstItem="SiG-ev-SY0" firstAttribute="trailing" secondItem="Xp4-he-tr0" secondAttribute="trailing" id="fnc-6r-OeP"/>
+                                                    <constraint firstAttribute="bottom" secondItem="SiG-ev-SY0" secondAttribute="bottom" constant="69.333333333333343" id="hEv-3T-MVB"/>
+                                                    <constraint firstItem="SiG-ev-SY0" firstAttribute="leading" secondItem="Xp4-he-tr0" secondAttribute="leading" id="k28-rb-6v6"/>
+                                                    <constraint firstItem="SiG-ev-SY0" firstAttribute="leading" secondItem="2Ic-db-CMh" secondAttribute="leading" constant="20" id="mpk-eH-9h5"/>
+                                                    <constraint firstItem="SiG-ev-SY0" firstAttribute="top" secondItem="Xp4-he-tr0" secondAttribute="top" id="s8v-cS-QTs"/>
+                                                    <constraint firstAttribute="trailing" secondItem="SiG-ev-SY0" secondAttribute="trailing" constant="-1.6666666666666856" id="vbb-af-lD9"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZvG-tK-sKq" userLabel="matchaTeaView">
+                                                <rect key="frame" x="262.66666666666669" y="0.0" width="130.33333333333331" height="212.33333333333334"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Matcha_Tea-removebg" translatesAutoresizingMaskIntoConstraints="NO" id="fYl-u9-AaH">
+                                                        <rect key="frame" x="19.999999999999993" y="20" width="110.33333333333331" height="123"/>
+                                                    </imageView>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="10L-8d-S6f" userLabel="Matcha">
+                                                        <rect key="frame" x="19.999999999999993" y="20" width="110.33333333333331" height="123"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Matcha">
+                                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="teaSelection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uLb-lK-4IX"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="10L-8d-S6f" firstAttribute="top" secondItem="ZvG-tK-sKq" secondAttribute="top" constant="20" id="3nN-6W-AFV"/>
+                                                    <constraint firstItem="10L-8d-S6f" firstAttribute="leading" secondItem="ZvG-tK-sKq" secondAttribute="leading" constant="20" id="8JN-H6-hI2"/>
+                                                    <constraint firstItem="10L-8d-S6f" firstAttribute="trailing" secondItem="fYl-u9-AaH" secondAttribute="trailing" id="NLy-eq-A5d"/>
+                                                    <constraint firstItem="10L-8d-S6f" firstAttribute="leading" secondItem="fYl-u9-AaH" secondAttribute="leading" id="T1l-bU-tZe"/>
+                                                    <constraint firstAttribute="trailing" secondItem="10L-8d-S6f" secondAttribute="trailing" id="mI3-bQ-B8Z"/>
+                                                    <constraint firstItem="10L-8d-S6f" firstAttribute="top" secondItem="fYl-u9-AaH" secondAttribute="top" id="nYZ-AH-Ra8"/>
+                                                    <constraint firstItem="10L-8d-S6f" firstAttribute="bottom" secondItem="fYl-u9-AaH" secondAttribute="bottom" id="vsI-fi-biz"/>
+                                                    <constraint firstAttribute="bottom" secondItem="10L-8d-S6f" secondAttribute="bottom" constant="69.333333333333343" id="w9B-Z0-vKp"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="IJZ-A0-q0d" userLabel="teaStackViewTwo">
+                                        <rect key="frame" x="0.0" y="426.66666666666674" width="393" height="212"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="anP-mz-jB9" userLabel="herbalTeaView">
+                                                <rect key="frame" x="0.0" y="0.0" width="130.33333333333334" height="212"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Herbal_Tea_-removebg" translatesAutoresizingMaskIntoConstraints="NO" id="qiW-HT-koA">
+                                                        <rect key="frame" x="20" y="20" width="112" height="123"/>
+                                                    </imageView>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pht-ts-Yzs" userLabel="Herbal">
+                                                        <rect key="frame" x="20" y="20" width="112" height="123"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Herbal">
+                                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="teaSelection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zmd-xc-0Ia"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="Pht-ts-Yzs" firstAttribute="leading" secondItem="qiW-HT-koA" secondAttribute="leading" id="4bD-BR-1AX"/>
+                                                    <constraint firstItem="Pht-ts-Yzs" firstAttribute="bottom" secondItem="qiW-HT-koA" secondAttribute="bottom" id="5hr-wW-b6U"/>
+                                                    <constraint firstItem="Pht-ts-Yzs" firstAttribute="top" secondItem="qiW-HT-koA" secondAttribute="top" id="5lp-GQ-4r8"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Pht-ts-Yzs" secondAttribute="trailing" constant="-1.6666666666666572" id="9ht-bC-Pan"/>
+                                                    <constraint firstAttribute="bottom" secondItem="Pht-ts-Yzs" secondAttribute="bottom" constant="69" id="AeM-ER-KD3"/>
+                                                    <constraint firstItem="Pht-ts-Yzs" firstAttribute="top" secondItem="anP-mz-jB9" secondAttribute="top" constant="20" id="buN-RD-puH"/>
+                                                    <constraint firstItem="Pht-ts-Yzs" firstAttribute="trailing" secondItem="qiW-HT-koA" secondAttribute="trailing" id="oWz-nX-3n9"/>
+                                                    <constraint firstItem="Pht-ts-Yzs" firstAttribute="leading" secondItem="anP-mz-jB9" secondAttribute="leading" constant="20" id="yW9-KD-zgu"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hno-G7-CaJ" userLabel="whiteteaView">
+                                                <rect key="frame" x="131.33333333333331" y="0.0" width="130.33333333333331" height="212"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="White_Tea-removebg" translatesAutoresizingMaskIntoConstraints="NO" id="bGv-nm-C5i">
+                                                        <rect key="frame" x="20" y="20" width="112" height="123"/>
+                                                    </imageView>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DUA-OO-dWt" userLabel="White">
+                                                        <rect key="frame" x="20" y="20" width="112" height="123"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="White">
+                                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="teaSelection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b11-Yh-QfB"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="DUA-OO-dWt" firstAttribute="top" secondItem="Hno-G7-CaJ" secondAttribute="top" constant="20" id="8gn-rr-Mf7"/>
+                                                    <constraint firstItem="DUA-OO-dWt" firstAttribute="leading" secondItem="bGv-nm-C5i" secondAttribute="leading" id="8xf-Tp-hRy"/>
+                                                    <constraint firstAttribute="bottom" secondItem="DUA-OO-dWt" secondAttribute="bottom" constant="69" id="BF6-Tx-kdb"/>
+                                                    <constraint firstItem="DUA-OO-dWt" firstAttribute="trailing" secondItem="bGv-nm-C5i" secondAttribute="trailing" id="QVh-mF-KUV"/>
+                                                    <constraint firstAttribute="trailing" secondItem="DUA-OO-dWt" secondAttribute="trailing" constant="-1.6666666666666856" id="iMr-Is-irP"/>
+                                                    <constraint firstItem="DUA-OO-dWt" firstAttribute="leading" secondItem="Hno-G7-CaJ" secondAttribute="leading" constant="20" id="j4F-xd-KAj"/>
+                                                    <constraint firstItem="DUA-OO-dWt" firstAttribute="top" secondItem="bGv-nm-C5i" secondAttribute="top" id="mwm-KG-zK9"/>
+                                                    <constraint firstItem="DUA-OO-dWt" firstAttribute="bottom" secondItem="bGv-nm-C5i" secondAttribute="bottom" id="oKU-Aj-7eU"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ae4-ld-DLw" userLabel="oolongTeaView">
+                                                <rect key="frame" x="262.66666666666669" y="0.0" width="130.33333333333331" height="212"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Oolong_Tea_-removebg" translatesAutoresizingMaskIntoConstraints="NO" id="C85-dL-NfS">
+                                                        <rect key="frame" x="19.999999999999993" y="20" width="110.33333333333331" height="123"/>
+                                                    </imageView>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LAH-G8-5YF">
+                                                        <rect key="frame" x="19.999999999999993" y="20" width="110.33333333333331" height="123"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Oolong">
+                                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="teaSelection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XQP-Sa-C9I"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="LAH-G8-5YF" firstAttribute="top" secondItem="ae4-ld-DLw" secondAttribute="top" constant="20" id="Fbn-4N-DJK"/>
+                                                    <constraint firstItem="LAH-G8-5YF" firstAttribute="leading" secondItem="ae4-ld-DLw" secondAttribute="leading" constant="20" id="Kt2-Dt-tLt"/>
+                                                    <constraint firstItem="LAH-G8-5YF" firstAttribute="bottom" secondItem="C85-dL-NfS" secondAttribute="bottom" id="LzJ-dn-o6I"/>
+                                                    <constraint firstAttribute="bottom" secondItem="LAH-G8-5YF" secondAttribute="bottom" constant="69" id="QCh-Wv-aZj"/>
+                                                    <constraint firstItem="LAH-G8-5YF" firstAttribute="trailing" secondItem="C85-dL-NfS" secondAttribute="trailing" id="UOa-0E-ouG"/>
+                                                    <constraint firstItem="LAH-G8-5YF" firstAttribute="leading" secondItem="C85-dL-NfS" secondAttribute="leading" id="eHj-7b-IUc"/>
+                                                    <constraint firstAttribute="trailing" secondItem="LAH-G8-5YF" secondAttribute="trailing" id="ygp-4o-RZj"/>
+                                                    <constraint firstItem="LAH-G8-5YF" firstAttribute="top" secondItem="C85-dL-NfS" secondAttribute="top" id="zoz-hE-5IE"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eXS-UK-LgG" userLabel="progressView">
+                                        <rect key="frame" x="0.0" y="639.66666666666663" width="393" height="212.33333333333337"/>
+                                        <subviews>
+                                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="fm3-jV-6zD">
+                                                <rect key="frame" x="0.0" y="102.66666666666674" width="393" height="7"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="7" id="X5w-2o-zoL"/>
+                                                </constraints>
+                                                <color key="progressTintColor" red="0.30196078431372547" green="0.42745098039215684" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="trackTintColor" red="0.22352941176470587" green="0.21568627450980393" blue="0.21568627450980393" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </progressView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="fm3-jV-6zD" firstAttribute="leading" secondItem="eXS-UK-LgG" secondAttribute="leading" id="3G8-AF-9Od"/>
+                                            <constraint firstAttribute="trailing" secondItem="fm3-jV-6zD" secondAttribute="trailing" id="FtF-1P-AJf"/>
+                                            <constraint firstItem="fm3-jV-6zD" firstAttribute="centerY" secondItem="eXS-UK-LgG" secondAttribute="centerY" id="vWw-h4-8Iw"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.65098039215686276" green="0.89411764705882346" blue="0.90588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xng-25-d1x" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="A3T-hP-fK5"/>
+                            <constraint firstItem="xng-25-d1x" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="C1c-a3-jte"/>
+                            <constraint firstAttribute="bottom" secondItem="xng-25-d1x" secondAttribute="bottom" id="Dsw-QZ-RJw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xng-25-d1x" secondAttribute="trailing" id="ESe-Zu-An9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="progressBarView" destination="fm3-jV-6zD" id="SyB-V1-Oha"/>
+                        <outlet property="titleHeader" destination="E8C-w7-7fL" id="E5M-GW-SC2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Black_Tea-removebg" width="1668" height="2388"/>
+        <image name="Green_Tea-removebg" width="1668" height="2388"/>
+        <image name="Herbal_Tea_-removebg" width="1668" height="2388"/>
+        <image name="Matcha_Tea-removebg" width="1668" height="2388"/>
+        <image name="Oolong_Tea_-removebg" width="1668" height="2388"/>
+        <image name="White_Tea-removebg" width="1668" height="2388"/>
+    </resources>
+</document>
