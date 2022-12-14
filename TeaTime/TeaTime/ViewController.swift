@@ -20,8 +20,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var titleHeader: UILabel!
     
     // Initializing dictionary for various tea options
-    let teaTime: [String: Int] = ["Black": 180, "Green": 60, "Matcha": 40, "Herbal": 300, "White": 180, "Oolong": 180]
-    
+    let teaTime: [String: Int] = ["Black": 2, "Green": 3, "Matcha": 4, "Herbal": 5, "White": 6, "Oolong": 7]
     var timer = Timer()
     var totalTime = 0
     var secondsPassed = 0
@@ -31,7 +30,7 @@ class ViewController: UIViewController {
     @IBAction func teaSelection(_ sender: UIButton) {
         
         timer.invalidate()
-        let steep = sender.currentTitle // Black, Green, Matcha, Herbal, White, or Oolong
+        let steep = sender.currentTitle! //black, green, matcha, herbal, white, or oolong tea
         totalTime = teaTime[steep]!
         
         progressBarView.progress = 0.0
@@ -44,18 +43,25 @@ class ViewController: UIViewController {
     // Creating function to count down tea steeping time
     @objc func updateTimer() {
         if (secondsPassed < totalTime) {
-            secondsPassed += secondsPassed
+            secondsPassed += 1
             progressBarView.progress = Float(secondsPassed) / Float(totalTime)
             print(Float(secondsPassed) / Float(totalTime))
         }
         else {
             timer.invalidate()
             titleHeader.text = "DONE!!!"
-            
-            let url = Bundle.main.url(forResource: "alarm_sound", withExtension: "mp3")
-            player = try! AVAudioPlayer(contentsOf: url!)
-            player.play()
+            playSound()
         }
+    }
+    
+    func playSound() {
+        // Bundle finds the alarm_sound file in the application resources
+        let url = Bundle.main.url(forResource: "alarm_sound", withExtension: "mp3")
+        // Tells the application the C.wav file that was found is the sound we want ot play
+        player = try! AVAudioPlayer(contentsOf: url!)
+        //Plays the sound
+        player.play()
+                
     }
 }
 
