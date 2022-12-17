@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var titleHeader: UILabel!
     
     // Initializing dictionary for various tea options
-    let teaTime: [String: Int] = ["Black": 2, "Green": 3, "Matcha": 4, "Herbal": 5, "White": 6, "Oolong": 7]
+    let teaTime: [String: Int] = ["Black": 180, "Green": 60, "Matcha": 40, "Herbal": 300, "White": 180, "Oolong": 180]
     var timer = Timer()
     var totalTime = 0
     var secondsPassed = 0
