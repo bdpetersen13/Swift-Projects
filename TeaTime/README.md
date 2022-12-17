@@ -27,6 +27,9 @@ Once the allotted time for the selected tea is up, the progress bar will be comp
 
 Below are images of the application:
 
+![image](https://user-images.githubusercontent.com/89234922/208250471-f740d678-430c-4d71-ae30-4213752644f3.png)
+
+![image](https://user-images.githubusercontent.com/89234922/208250475-065c0aad-2d19-4742-9acf-2d39d1606c58.png)
 
 
 
