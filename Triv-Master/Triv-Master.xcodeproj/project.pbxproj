@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2652C7AE29576024002B32F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2652C7AD29576024002B32F9 /* AppDelegate.swift */; };
+		2652C7B029576024002B32F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2652C7AF29576024002B32F9 /* SceneDelegate.swift */; };
+		2652C7B229576024002B32F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2652C7B129576024002B32F9 /* ViewController.swift */; };
+		2652C7B529576024002B32F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2652C7B329576024002B32F9 /* Main.storyboard */; };
+		2652C7B729576026002B32F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2652C7B629576026002B32F9 /* Assets.xcassets */; };
+		2652C7BA29576026002B32F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2652C7B829576026002B32F9 /* LaunchScreen.storyboard */; };
+		2652C7C529576026002B32F9 /* Triv_MasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2652C7C429576026002B32F9 /* Triv_MasterTests.swift */; };
+		2652C7CF29576026002B32F9 /* Triv_MasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2652C7CE29576026002B32F9 /* Triv_MasterUITests.swift */; };
+		2652C7D129576026002B32F9 /* Triv_MasterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2652C7D029576026002B32F9 /* Triv_MasterUITestsLaunchTests.swift */; };
+		26E21F442958158500F30128 /* QuizQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E21F432958158500F30128 /* QuizQuestions.swift */; };
+		26E21F47295815B500F30128 /* QuizMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E21F46295815B500F30128 /* QuizMaster.swift */; };
+		26E21F49295824A100F30128 /* FinalScore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26E21F48295824A100F30128 /* FinalScore.storyboard */; };
+		26E21F4B2958BD9400F30128 /* FinalScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E21F4A2958BD9400F30128 /* FinalScoreViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2652C7C129576026002B32F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2652C7A229576024002B32F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2652C7A929576024002B32F9;
+			remoteInfo = "Triv-Master";
+		};
+		2652C7CB29576026002B32F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2652C7A229576024002B32F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2652C7A929576024002B32F9;
+			remoteInfo = "Triv-Master";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2652C7AA29576024002B32F9 /* Triv-Master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Triv-Master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2652C7AD29576024002B32F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2652C7AF29576024002B32F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2652C7B129576024002B32F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2652C7B429576024002B32F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2652C7B629576026002B32F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2652C7B929576026002B32F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2652C7BB29576026002B32F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2652C7C029576026002B32F9 /* Triv-MasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Triv-MasterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2652C7C429576026002B32F9 /* Triv_MasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triv_MasterTests.swift; sourceTree = "<group>"; };
+		2652C7CA29576026002B32F9 /* Triv-MasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Triv-MasterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2652C7CE29576026002B32F9 /* Triv_MasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triv_MasterUITests.swift; sourceTree = "<group>"; };
+		2652C7D029576026002B32F9 /* Triv_MasterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triv_MasterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		26E21F432958158500F30128 /* QuizQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestions.swift; sourceTree = "<group>"; };
+		26E21F46295815B500F30128 /* QuizMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizMaster.swift; sourceTree = "<group>"; };
+		26E21F48295824A100F30128 /* FinalScore.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FinalScore.storyboard; sourceTree = "<group>"; };
+		26E21F4A2958BD9400F30128 /* FinalScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalScoreViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2652C7A729576024002B32F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2652C7BD29576026002B32F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2652C7C729576026002B32F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2652C7A129576024002B32F9 = {
+			isa = PBXGroup;
+			children = (
+				2652C7AC29576024002B32F9 /* Triv-Master */,
+				2652C7C329576026002B32F9 /* Triv-MasterTests */,
+				2652C7CD29576026002B32F9 /* Triv-MasterUITests */,
+				2652C7AB29576024002B32F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2652C7AB29576024002B32F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2652C7AA29576024002B32F9 /* Triv-Master.app */,
+				2652C7C029576026002B32F9 /* Triv-MasterTests.xctest */,
+				2652C7CA29576026002B32F9 /* Triv-MasterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2652C7AC29576024002B32F9 /* Triv-Master */ = {
+			isa = PBXGroup;
+			children = (
+				2652C7AD29576024002B32F9 /* AppDelegate.swift */,
+				2652C7AF29576024002B32F9 /* SceneDelegate.swift */,
+				26E21F452958158F00F30128 /* Model */,
+				26E21F412958154100F30128 /* View */,
+				26E21F422958156B00F30128 /* Controller */,
+				2652C7B629576026002B32F9 /* Assets.xcassets */,
+				2652C7B829576026002B32F9 /* LaunchScreen.storyboard */,
+				2652C7BB29576026002B32F9 /* Info.plist */,
+			);
+			path = "Triv-Master";
+			sourceTree = "<group>";
+		};
+		2652C7C329576026002B32F9 /* Triv-MasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				2652C7C429576026002B32F9 /* Triv_MasterTests.swift */,
+			);
+			path = "Triv-MasterTests";
+			sourceTree = "<group>";
+		};
+		2652C7CD29576026002B32F9 /* Triv-MasterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2652C7CE29576026002B32F9 /* Triv_MasterUITests.swift */,
+				2652C7D029576026002B32F9 /* Triv_MasterUITestsLaunchTests.swift */,
+			);
+			path = "Triv-MasterUITests";
+			sourceTree = "<group>";
+		};
+		26E21F412958154100F30128 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2652C7B329576024002B32F9 /* Main.storyboard */,
+				26E21F48295824A100F30128 /* FinalScore.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		26E21F422958156B00F30128 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2652C7B129576024002B32F9 /* ViewController.swift */,
+				26E21F4A2958BD9400F30128 /* FinalScoreViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		26E21F452958158F00F30128 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				26E21F432958158500F30128 /* QuizQuestions.swift */,
+				26E21F46295815B500F30128 /* QuizMaster.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2652C7A929576024002B32F9 /* Triv-Master */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2652C7D429576026002B32F9 /* Build configuration list for PBXNativeTarget "Triv-Master" */;
+			buildPhases = (
+				2652C7A629576024002B32F9 /* Sources */,
+				2652C7A729576024002B32F9 /* Frameworks */,
+				2652C7A829576024002B32F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Triv-Master";
+			productName = "Triv-Master";
+			productReference = 2652C7AA29576024002B32F9 /* Triv-Master.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2652C7BF29576026002B32F9 /* Triv-MasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2652C7D729576026002B32F9 /* Build configuration list for PBXNativeTarget "Triv-MasterTests" */;
+			buildPhases = (
+				2652C7BC29576026002B32F9 /* Sources */,
+				2652C7BD29576026002B32F9 /* Frameworks */,
+				2652C7BE29576026002B32F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2652C7C229576026002B32F9 /* PBXTargetDependency */,
+			);
+			name = "Triv-MasterTests";
+			productName = "Triv-MasterTests";
+			productReference = 2652C7C029576026002B32F9 /* Triv-MasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2652C7C929576026002B32F9 /* Triv-MasterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2652C7DA29576026002B32F9 /* Build configuration list for PBXNativeTarget "Triv-MasterUITests" */;
+			buildPhases = (
+				2652C7C629576026002B32F9 /* Sources */,
+				2652C7C729576026002B32F9 /* Frameworks */,
+				2652C7C829576026002B32F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2652C7CC29576026002B32F9 /* PBXTargetDependency */,
+			);
+			name = "Triv-MasterUITests";
+			productName = "Triv-MasterUITests";
+			productReference = 2652C7CA29576026002B32F9 /* Triv-MasterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2652C7A229576024002B32F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2652C7A929576024002B32F9 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					2652C7BF29576026002B32F9 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 2652C7A929576024002B32F9;
+					};
+					2652C7C929576026002B32F9 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 2652C7A929576024002B32F9;
+					};
+				};
+			};
+			buildConfigurationList = 2652C7A529576024002B32F9 /* Build configuration list for PBXProject "Triv-Master" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2652C7A129576024002B32F9;
+			productRefGroup = 2652C7AB29576024002B32F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2652C7A929576024002B32F9 /* Triv-Master */,
+				2652C7BF29576026002B32F9 /* Triv-MasterTests */,
+				2652C7C929576026002B32F9 /* Triv-MasterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2652C7A829576024002B32F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2652C7BA29576026002B32F9 /* LaunchScreen.storyboard in Resources */,
+				2652C7B729576026002B32F9 /* Assets.xcassets in Resources */,
+				26E21F49295824A100F30128 /* FinalScore.storyboard in Resources */,
+				2652C7B529576024002B32F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2652C7BE29576026002B32F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2652C7C829576026002B32F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2652C7A629576024002B32F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2652C7B229576024002B32F9 /* ViewController.swift in Sources */,
+				2652C7AE29576024002B32F9 /* AppDelegate.swift in Sources */,
+				26E21F442958158500F30128 /* QuizQuestions.swift in Sources */,
+				26E21F47295815B500F30128 /* QuizMaster.swift in Sources */,
+				26E21F4B2958BD9400F30128 /* FinalScoreViewController.swift in Sources */,
+				2652C7B029576024002B32F9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2652C7BC29576026002B32F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2652C7C529576026002B32F9 /* Triv_MasterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2652C7C629576026002B32F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2652C7CF29576026002B32F9 /* Triv_MasterUITests.swift in Sources */,
+				2652C7D129576026002B32F9 /* Triv_MasterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2652C7C229576026002B32F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2652C7A929576024002B32F9 /* Triv-Master */;
+			targetProxy = 2652C7C129576026002B32F9 /* PBXContainerItemProxy */;
+		};
+		2652C7CC29576026002B32F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2652C7A929576024002B32F9 /* Triv-Master */;
+			targetProxy = 2652C7CB29576026002B32F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2652C7B329576024002B32F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2652C7B429576024002B32F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2652C7B829576026002B32F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2652C7B929576026002B32F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2652C7D229576026002B32F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2652C7D329576026002B32F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2652C7D529576026002B32F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MGCAWMJL7W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Triv-Master/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Triv Master";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.trivia-games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Triv-Master.Brandon-Petersen.Triv-Master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2652C7D629576026002B32F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MGCAWMJL7W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Triv-Master/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Triv Master";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.trivia-games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Triv-Master.Brandon-Petersen.Triv-Master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2652C7D829576026002B32F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MGCAWMJL7W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Triv-Master.Brandon-Petersen.Triv-MasterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Triv-Master.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Triv-Master";
+			};
+			name = Debug;
+		};
+		2652C7D929576026002B32F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MGCAWMJL7W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Triv-Master.Brandon-Petersen.Triv-MasterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Triv-Master.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Triv-Master";
+			};
+			name = Release;
+		};
+		2652C7DB29576026002B32F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MGCAWMJL7W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Triv-Master.Brandon-Petersen.Triv-MasterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Triv-Master";
+			};
+			name = Debug;
+		};
+		2652C7DC29576026002B32F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MGCAWMJL7W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Triv-Master.Brandon-Petersen.Triv-MasterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Triv-Master";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2652C7A529576024002B32F9 /* Build configuration list for PBXProject "Triv-Master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2652C7D229576026002B32F9 /* Debug */,
+				2652C7D329576026002B32F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2652C7D429576026002B32F9 /* Build configuration list for PBXNativeTarget "Triv-Master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2652C7D529576026002B32F9 /* Debug */,
+				2652C7D629576026002B32F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2652C7D729576026002B32F9 /* Build configuration list for PBXNativeTarget "Triv-MasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2652C7D829576026002B32F9 /* Debug */,
+				2652C7D929576026002B32F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2652C7DA29576026002B32F9 /* Build configuration list for PBXNativeTarget "Triv-MasterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2652C7DB29576026002B32F9 /* Debug */,
+				2652C7DC29576026002B32F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2652C7A229576024002B32F9 /* Project object */;
+}
