@@ -27,6 +27,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func buttonActuated(_ sender: UIButton) {
+        // print(sender.currentTitle!)
         let userAnswer = sender.currentTitle!
         let userAnswerIsCorrect = quizMaster.checkAnswer(userAnswer)
         

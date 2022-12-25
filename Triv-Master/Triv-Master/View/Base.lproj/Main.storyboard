@@ -29,13 +29,13 @@
                                             <constraint firstAttribute="height" constant="10" id="F9k-qQ-0dF"/>
                                         </constraints>
                                     </progressView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="241-Yb-AKq" userLabel="QuestionLabel">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="241-Yb-AKq" userLabel="QuestionLabel">
                                         <rect key="frame" x="0.0" y="20" width="393" height="355.66666666666669"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <color key="textColor" red="0.94901960780000005" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qzt-H5-qkn" userLabel="hoiceOneButton">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qzt-H5-qkn" userLabel="ChoiceOneButton">
                                         <rect key="frame" x="0.0" y="385.66666666666669" width="393" height="80"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="80" id="2pv-Fc-s2i"/>
@@ -45,8 +45,11 @@
                                         <state key="normal" title="Choice One" backgroundImage="Rectangle">
                                             <color key="titleColor" red="0.94901960784313721" green="0.89803921568627454" blue="0.89803921568627454" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="buttonActuated:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zus-xT-4Xq"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nqd-Hw-cLQ" userLabel="hoiceTwoButton">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nqd-Hw-cLQ" userLabel="ChoiceTwoButton">
                                         <rect key="frame" x="0.0" y="475.66666666666663" width="393" height="80"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="80" id="k4m-1N-23V"/>
@@ -60,7 +63,7 @@
                                             <action selector="buttonActuated:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QWt-34-Wvc"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydy-a5-RTS" userLabel="hoiceThreeButton">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydy-a5-RTS" userLabel="ChoiceThreeButton">
                                         <rect key="frame" x="0.0" y="565.66666666666663" width="393" height="80"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="80" id="Esp-ht-9aM"/>
@@ -70,6 +73,9 @@
                                         <state key="normal" title="Choice Three" backgroundImage="Rectangle">
                                             <color key="titleColor" red="0.94901960780000005" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="buttonActuated:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1hh-K2-Vpw"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PXd-BZ-Dl0" userLabel="hoiceFourButton">
                                         <rect key="frame" x="0.0" y="655.66666666666663" width="393" height="80"/>
@@ -81,6 +87,9 @@
                                         <state key="normal" title="Choice Four" backgroundImage="Rectangle">
                                             <color key="titleColor" red="0.94901960784313721" green="0.89803921568627454" blue="0.89803921568627454" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="buttonActuated:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m19-dY-uZb"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="   Score Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rrX-fj-b0Y" userLabel="ScoreLabel">
                                         <rect key="frame" x="0.0" y="745.66666666666663" width="393" height="15"/>

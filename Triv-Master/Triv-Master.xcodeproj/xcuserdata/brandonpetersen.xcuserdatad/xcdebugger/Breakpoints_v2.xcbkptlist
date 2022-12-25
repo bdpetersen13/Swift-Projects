@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "FBA1246C-B2DA-4B75-A6E6-3099F57EBB97"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "60C392DC-F17C-411F-B7D4-DE473F4AB456"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Triv-Master/Controller/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "60C392DC-F17C-411F-B7D4-DE473F4AB456 - 68332f84041c25ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Triv_Master.ViewController.progressBar.getter : Swift.Optional&lt;__C.UIProgressView&gt;"
+                  moduleName = "Triv-Master"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brandonpetersen/Desktop/Swift_Projects/Swift-Projects/Triv-Master/Triv-Master/Controller/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "60C392DC-F17C-411F-B7D4-DE473F4AB456 - 8c11c9d62d822da7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Triv_Master.ViewController.progressBar.setter : Swift.Optional&lt;__C.UIProgressView&gt;"
+                  moduleName = "Triv-Master"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brandonpetersen/Desktop/Swift_Projects/Swift-Projects/Triv-Master/Triv-Master/Controller/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "60C392DC-F17C-411F-B7D4-DE473F4AB456 - 7152b738168457b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Triv_Master.ViewController.progressBar.modify : Swift.Optional&lt;__C.UIProgressView&gt;"
+                  moduleName = "Triv-Master"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brandonpetersen/Desktop/Swift_Projects/Swift-Projects/Triv-Master/Triv-Master/Controller/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "60C392DC-F17C-411F-B7D4-DE473F4AB456 - 21ffaff3e744e32c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Triv_Master.ViewController.progressBar.modify : Swift.Optional&lt;__C.UIProgressView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Triv-Master"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brandonpetersen/Desktop/Swift_Projects/Swift-Projects/Triv-Master/Triv-Master/Controller/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "60C392DC-F17C-411F-B7D4-DE473F4AB456 - 6b785614c345364d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Triv_Master.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Triv_Master.ViewController"
+                  moduleName = "Triv-Master"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brandonpetersen/Desktop/Swift_Projects/Swift-Projects/Triv-Master/Triv-Master/Controller/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "60C392DC-F17C-411F-B7D4-DE473F4AB456 - ba1d99d15a1cb1f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Triv_Master.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Triv_Master.ViewController&gt;"
+                  moduleName = "Triv-Master"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brandonpetersen/Desktop/Swift_Projects/Swift-Projects/Triv-Master/Triv-Master/Controller/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "104">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
