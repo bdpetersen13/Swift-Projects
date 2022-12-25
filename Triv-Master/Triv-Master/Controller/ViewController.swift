@@ -60,7 +60,7 @@ class ViewController: UIViewController {
         choiceThreeButton.backgroundColor = UIColor.clear
         choiceFourButton.backgroundColor = UIColor.clear
         
-        scoreLabel.text = "Score: \(quizMaster.getScore())"  // Obtaining the user's current score
+        scoreLabel.text = "  Score: \(quizMaster.getScore())"  // Obtaining the user's current score
         progressBar.progress = quizMaster.getProgress()  // Updating the progress bar
     }
 }
