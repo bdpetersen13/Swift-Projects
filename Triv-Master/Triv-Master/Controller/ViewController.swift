@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
     // IBOutlet for various UI elements
@@ -18,6 +19,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var scoreLabel: UILabel!
     
     var quizMaster = QuizMaster()
+    var player: AVAudioPlayer!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,9 +36,15 @@ class ViewController: UIViewController {
         // Checking correctness of user's answers
         if (userAnswerIsCorrect) {
             sender.backgroundColor = UIColor.green
+            let url = Bundle.main.url(forResource: "correct_sound", withExtension: "mp3")
+            player = try! AVAudioPlayer(contentsOf: url!)
+            player.play()
         }
         else {
             sender.backgroundColor = UIColor.red
+            let url = Bundle.main.url(forResource: "incorrect_sound", withExtension: "mp3")
+            player = try! AVAudioPlayer(contentsOf: url!)
+            player.play()
         }
         
         quizMaster.nextQuestion()

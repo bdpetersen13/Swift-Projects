@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		264616552958DE6D00B19870 /* incorrect_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 264616542958DE6D00B19870 /* incorrect_sound.mp3 */; };
+		264616572958DE7900B19870 /* correct_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 264616562958DE7900B19870 /* correct_sound.mp3 */; };
 		2652C7AE29576024002B32F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2652C7AD29576024002B32F9 /* AppDelegate.swift */; };
 		2652C7B029576024002B32F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2652C7AF29576024002B32F9 /* SceneDelegate.swift */; };
 		2652C7B229576024002B32F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2652C7B129576024002B32F9 /* ViewController.swift */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		264616542958DE6D00B19870 /* incorrect_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = incorrect_sound.mp3; sourceTree = "<group>"; };
+		264616562958DE7900B19870 /* correct_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct_sound.mp3; sourceTree = "<group>"; };
 		2652C7AA29576024002B32F9 /* Triv-Master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Triv-Master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2652C7AD29576024002B32F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2652C7AF29576024002B32F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 		2652C7AC29576024002B32F9 /* Triv-Master */ = {
 			isa = PBXGroup;
 			children = (
+				264616562958DE7900B19870 /* correct_sound.mp3 */,
+				264616542958DE6D00B19870 /* incorrect_sound.mp3 */,
 				2652C7AD29576024002B32F9 /* AppDelegate.swift */,
 				2652C7AF29576024002B32F9 /* SceneDelegate.swift */,
 				26E21F452958158F00F30128 /* Model */,
@@ -270,7 +276,9 @@
 				2652C7BA29576026002B32F9 /* LaunchScreen.storyboard in Resources */,
 				2652C7B729576026002B32F9 /* Assets.xcassets in Resources */,
 				26E21F49295824A100F30128 /* FinalScore.storyboard in Resources */,
+				264616572958DE7900B19870 /* correct_sound.mp3 in Resources */,
 				2652C7B529576024002B32F9 /* Main.storyboard in Resources */,
+				264616552958DE6D00B19870 /* incorrect_sound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

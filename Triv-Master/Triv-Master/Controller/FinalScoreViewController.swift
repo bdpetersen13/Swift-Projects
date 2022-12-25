@@ -30,17 +30,17 @@ class FinalScoreViewController: UIViewController {
     }
     
     func labelBasedScore() {
-        if (quizMaster.getScore() == 3) {
+        if (quizMaster.getScore() == 10) {
             greetingLabel.text = "Congragulations, You're Awesome!"
             howYouDidLabel.text = "You Got All the Questions Correct!"
         }
-        else if (quizMaster.getScore() < 3 && quizMaster.getScore() > 1) {
+        else if (quizMaster.getScore() < 10 && quizMaster.getScore() > 5) {
             greetingLabel.text = "Congragulations, You Passed!"
-            howYouDidLabel.text = "You Missed One Question!"
+            howYouDidLabel.text = "You're So Close to a Perfect Score! You Got This!"
         }
         else {
-            greetingLabel.text = "You Failed!"
-            howYouDidLabel.text = "Better Luck Next Time!"
+            greetingLabel.text = "You Did Not Pass!"
+            howYouDidLabel.text = "Best of Luck Next Time! You Got This!"
         }
     }
 }
