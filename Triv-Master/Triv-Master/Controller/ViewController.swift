@@ -47,9 +47,13 @@ class ViewController: UIViewController {
             player.play()
         }
         
-        quizMaster.nextQuestion()
+        //quizMaster.nextQuestion()
         
         Timer.scheduledTimer(timeInterval: 0.3, target: self, selector: #selector(updateUI), userInfo: nil, repeats: false)
+    }
+    
+    func moveBoard() {
+            performSegue(withIdentifier: "mainToFinal", sender: self)
     }
     
     @objc func updateUI() {

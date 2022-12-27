@@ -14,7 +14,7 @@ struct QuizMaster {
         Questions(q: "Five dollars is worth how many nickels?", a: ["25", "50", "100", "10"], ca: "100"),
         Questions(q: "Where is Tasmania located?", a: ["Indonesia", "Australia", "Scotland", "Austria"], ca: "Australia"),
         Questions(q: "How many weeks are in a year?", a: ["48", "52", "64", "60"], ca: "52"),
-        Questions(q: "What film won Steven Spielberg his first Academy Award for Best Director?", a: ["War Horse", "Saving Private Ryan", "Schindler's List", "Indiana Jones and the Temple of Doom"], ca: "Schindler's List"),
+        Questions(q: "What film won Steven Spielberg his first Academy Award for Best Director?", a: ["War Horse", "Saving Private Ryan", "Schindler's List", "Indiana Jones"], ca: "Schindler's List"),
         Questions(q: "What is the average distance between the moon and the earth in miles?", a: ["382,000", "405,000", "360,000", "238,000"], ca: "238,000"),
         Questions(q: "What is the world’s largest land animal?", a: ["Goliath Beetle", "Blue Whale", "African Elephant", "Whale Shark"], ca: "African Elephant"),
         Questions(q: "What connects the muscles with the bones?", a: ["Flexor Retinaculum", "Tendons", "Soleus", "Trapezius"], ca: "Tendons"),
