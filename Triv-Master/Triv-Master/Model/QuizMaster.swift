@@ -24,6 +24,7 @@ struct QuizMaster {
     
     var questionNumber = 0  // Starting with 0 to match the starting position in the quiz array
     var score = 0   // Score starts at 0
+   //var firstView = ViewController()
     
     mutating func checkAnswer(_ userAnswer: String) -> Bool {
         if (userAnswer == questions[questionNumber].correctAnswer) {
@@ -53,7 +54,7 @@ struct QuizMaster {
         return progress
     }
     
-    mutating func nextQuestion() {
+    /*mutating func nextQuestion() {
         // Safety check to ensure the array is not out of index
         if (questionNumber + 1 < questions.count) {
             questionNumber += 1
@@ -62,5 +63,5 @@ struct QuizMaster {
             questionNumber = 0
             score = 0
         }
-    }
+    }*/
 }

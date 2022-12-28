@@ -48,13 +48,29 @@ class ViewController: UIViewController {
         }
         
         //quizMaster.nextQuestion()
+        nextQuestion()
         
         Timer.scheduledTimer(timeInterval: 0.3, target: self, selector: #selector(updateUI), userInfo: nil, repeats: false)
     }
     
     func moveBoard() {
-            performSegue(withIdentifier: "mainToFinal", sender: self)
+        performSegue(withIdentifier: "mainToFinal", sender: self)
     }
+    
+    //
+    func nextQuestion() {
+        // Safety check to ensure the array is not out of index
+        if (quizMaster.questionNumber + 1 < quizMaster.questions.count) {
+            quizMaster.questionNumber += 1
+        }
+        else if (quizMaster.questionNumber + 1 == quizMaster.questions.count) {
+            moveBoard()
+            
+            //quizMaster.questionNumber = 0
+            //quizMaster.score = 0
+        }
+    }
+    //
     
     @objc func updateUI() {
         questionLabel.text = quizMaster.getQuestionText()    // Updating questionLabel
