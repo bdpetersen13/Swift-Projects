@@ -54,7 +54,15 @@ class ViewController: UIViewController {
     }
     
     func moveBoard() {
-        performSegue(withIdentifier: "mainToFinal", sender: self)
+        if (quizMaster.getScore() == 10) {
+            performSegue(withIdentifier: "topToFinal", sender: self)
+        }
+        else if (quizMaster.getScore() > 0) {
+            performSegue(withIdentifier: "middleToFinal", sender: self)
+        }
+        else {
+            performSegue(withIdentifier: "bottomToFinal", sender: self)
+        }
     }
     
     //
@@ -63,7 +71,8 @@ class ViewController: UIViewController {
         if (quizMaster.questionNumber + 1 < quizMaster.questions.count) {
             quizMaster.questionNumber += 1
         }
-        else if (quizMaster.questionNumber + 1 == quizMaster.questions.count) {
+        else {
+            print(quizMaster.getScore())
             moveBoard()
             
             //quizMaster.questionNumber = 0

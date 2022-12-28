@@ -18,10 +18,14 @@
 		2652C7C529576026002B32F9 /* Triv_MasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2652C7C429576026002B32F9 /* Triv_MasterTests.swift */; };
 		2652C7CF29576026002B32F9 /* Triv_MasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2652C7CE29576026002B32F9 /* Triv_MasterUITests.swift */; };
 		2652C7D129576026002B32F9 /* Triv_MasterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2652C7D029576026002B32F9 /* Triv_MasterUITestsLaunchTests.swift */; };
+		2674E13E295CD05E0067BC71 /* MiddleScore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2674E13D295CD05E0067BC71 /* MiddleScore.storyboard */; };
+		2674E140295CD08D0067BC71 /* BottomScore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2674E13F295CD08D0067BC71 /* BottomScore.storyboard */; };
+		2674E144295CD2C90067BC71 /* MiddleScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2674E143295CD2C90067BC71 /* MiddleScoreViewController.swift */; };
+		2674E146295CD5350067BC71 /* BottomScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2674E145295CD5350067BC71 /* BottomScoreViewController.swift */; };
 		26E21F442958158500F30128 /* QuizQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E21F432958158500F30128 /* QuizQuestions.swift */; };
 		26E21F47295815B500F30128 /* QuizMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E21F46295815B500F30128 /* QuizMaster.swift */; };
-		26E21F49295824A100F30128 /* FinalScore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26E21F48295824A100F30128 /* FinalScore.storyboard */; };
-		26E21F4B2958BD9400F30128 /* FinalScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E21F4A2958BD9400F30128 /* FinalScoreViewController.swift */; };
+		26E21F49295824A100F30128 /* TopScore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26E21F48295824A100F30128 /* TopScore.storyboard */; };
+		26E21F4B2958BD9400F30128 /* TopScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E21F4A2958BD9400F30128 /* TopScoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,10 +61,14 @@
 		2652C7CA29576026002B32F9 /* Triv-MasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Triv-MasterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2652C7CE29576026002B32F9 /* Triv_MasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triv_MasterUITests.swift; sourceTree = "<group>"; };
 		2652C7D029576026002B32F9 /* Triv_MasterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triv_MasterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2674E13D295CD05E0067BC71 /* MiddleScore.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MiddleScore.storyboard; sourceTree = "<group>"; };
+		2674E13F295CD08D0067BC71 /* BottomScore.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BottomScore.storyboard; sourceTree = "<group>"; };
+		2674E143295CD2C90067BC71 /* MiddleScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleScoreViewController.swift; sourceTree = "<group>"; };
+		2674E145295CD5350067BC71 /* BottomScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomScoreViewController.swift; sourceTree = "<group>"; };
 		26E21F432958158500F30128 /* QuizQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestions.swift; sourceTree = "<group>"; };
 		26E21F46295815B500F30128 /* QuizMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizMaster.swift; sourceTree = "<group>"; };
-		26E21F48295824A100F30128 /* FinalScore.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FinalScore.storyboard; sourceTree = "<group>"; };
-		26E21F4A2958BD9400F30128 /* FinalScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalScoreViewController.swift; sourceTree = "<group>"; };
+		26E21F48295824A100F30128 /* TopScore.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TopScore.storyboard; sourceTree = "<group>"; };
+		26E21F4A2958BD9400F30128 /* TopScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopScoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,7 +154,9 @@
 			isa = PBXGroup;
 			children = (
 				2652C7B329576024002B32F9 /* Main.storyboard */,
-				26E21F48295824A100F30128 /* FinalScore.storyboard */,
+				26E21F48295824A100F30128 /* TopScore.storyboard */,
+				2674E13D295CD05E0067BC71 /* MiddleScore.storyboard */,
+				2674E13F295CD08D0067BC71 /* BottomScore.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -155,7 +165,9 @@
 			isa = PBXGroup;
 			children = (
 				2652C7B129576024002B32F9 /* ViewController.swift */,
-				26E21F4A2958BD9400F30128 /* FinalScoreViewController.swift */,
+				26E21F4A2958BD9400F30128 /* TopScoreViewController.swift */,
+				2674E143295CD2C90067BC71 /* MiddleScoreViewController.swift */,
+				2674E145295CD5350067BC71 /* BottomScoreViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -275,9 +287,11 @@
 			files = (
 				2652C7BA29576026002B32F9 /* LaunchScreen.storyboard in Resources */,
 				2652C7B729576026002B32F9 /* Assets.xcassets in Resources */,
-				26E21F49295824A100F30128 /* FinalScore.storyboard in Resources */,
+				26E21F49295824A100F30128 /* TopScore.storyboard in Resources */,
 				264616572958DE7900B19870 /* correct_sound.mp3 in Resources */,
+				2674E13E295CD05E0067BC71 /* MiddleScore.storyboard in Resources */,
 				2652C7B529576024002B32F9 /* Main.storyboard in Resources */,
+				2674E140295CD08D0067BC71 /* BottomScore.storyboard in Resources */,
 				264616552958DE6D00B19870 /* incorrect_sound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,9 +319,11 @@
 			files = (
 				2652C7B229576024002B32F9 /* ViewController.swift in Sources */,
 				2652C7AE29576024002B32F9 /* AppDelegate.swift in Sources */,
+				2674E146295CD5350067BC71 /* BottomScoreViewController.swift in Sources */,
 				26E21F442958158500F30128 /* QuizQuestions.swift in Sources */,
+				2674E144295CD2C90067BC71 /* MiddleScoreViewController.swift in Sources */,
 				26E21F47295815B500F30128 /* QuizMaster.swift in Sources */,
-				26E21F4B2958BD9400F30128 /* FinalScoreViewController.swift in Sources */,
+				26E21F4B2958BD9400F30128 /* TopScoreViewController.swift in Sources */,
 				2652C7B029576024002B32F9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
