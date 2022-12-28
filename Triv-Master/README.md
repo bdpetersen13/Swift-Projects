@@ -36,6 +36,16 @@ Once the user has become familiar with the layout, they can begin by reading the
 Once the array has reached the end, based on the user's final score, the application will segue to a different view to indicate the quiz result.
 
 Listed below are images of the application:
+
+![giphy](https://user-images.githubusercontent.com/89234922/209873634-b1e615e1-27cd-4505-9a43-f149da6987a5.gif)
+
+![image](https://user-images.githubusercontent.com/89234922/209873660-61181964-bdd3-4d47-b548-abbefce8a890.png)
+
+![image](https://user-images.githubusercontent.com/89234922/209873679-ee8f90e5-d4b9-4822-9264-099ebd13a6aa.png)
+
+![image](https://user-images.githubusercontent.com/89234922/209873700-bb4f1fc2-3a0e-465e-8393-a9aaab9488b5.png)
+
+
 ## Roadmap
 
 There is still much to be done with this project, and it's far from completion. The following steps of the project I intend to implement are as follows:
