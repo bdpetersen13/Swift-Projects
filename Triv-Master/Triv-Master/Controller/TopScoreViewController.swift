@@ -23,13 +23,13 @@ class TopScoreViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        scoreLabel.text = "10 / 10"
+        scoreLabel.text = "\(quizMaster.getScore()) / 10"
         pageTitleLabel.text = "Results"
         labelBasedScore()
     }
     
     func labelBasedScore() {
-        greetingLabel.text = "Congragulations, You're Awesome!"
+        greetingLabel.text = "Congragulations!"
         howYouDidLabel.text = "You Got All the Questions Correct!"
     }
 }

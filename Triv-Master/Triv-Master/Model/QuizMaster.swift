@@ -54,6 +54,8 @@ struct QuizMaster {
         return progress
     }
     
+    
+    
     /*mutating func nextQuestion() {
         // Safety check to ensure the array is not out of index
         if (questionNumber + 1 < questions.count) {
