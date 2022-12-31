@@ -19,18 +19,39 @@ class TopScoreViewController: UIViewController {
     @IBOutlet weak var tryAgainLabel: UILabel!
     
     var quizMaster = QuizMaster()
-    var topScore: Int?
+    var finalScore: Int?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         pageTitleLabel.text = "Results"
-        labelBasedScore()
+        
+        if (finalScore == 10) {
+            labelTopScore()
+        }
+        else if (finalScore! > 0) {
+            labelMiddleScore()
+        }
+        else if (finalScore == 0) {
+            labelBottomScore()
+        }
+
     }
     
-    func labelBasedScore() {
+    func labelTopScore() {
         greetingLabel.text = "Congragulations!"
         howYouDidLabel.text = "You Got All the Questions Correct!"
-        scoreLabel.text = String(topScore!) + " / 10"
+        scoreLabel.text = String(finalScore!) + " / 10"
+    }
+    
+    func labelMiddleScore() {
+        greetingLabel.text = "Good Job!"
+        howYouDidLabel.text = "You Got Some Questions Correct!"
+        scoreLabel.text = String(finalScore!) + " / 10"
+    }
+    func labelBottomScore() {
+        greetingLabel.text = "Better Luck Next Time!"
+        howYouDidLabel.text = "You Didn't Get Any Questions Correct! Don't Give Up!"
+        scoreLabel.text = String(finalScore!) + " / 10"
     }
 }

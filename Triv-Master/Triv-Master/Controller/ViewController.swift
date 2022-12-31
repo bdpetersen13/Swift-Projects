@@ -57,28 +57,26 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "topToFinal" {
             let destinationVC = segue.destination as! TopScoreViewController
-            destinationVC.topScore = quizMaster.getScore() 
+            destinationVC.finalScore = quizMaster.getScore()
         }
-        else if segue.identifier == "middleToFinal" {
+        /*else if segue.identifier == "middleToFinal" {
             let destinationVC = segue.destination as! MiddleScoreViewController
             destinationVC.middleScore = quizMaster.getScore()
         }
         else if segue.identifier == "bottomToFinal" {
             let destinationVC = segue.destination as! BottomScoreViewController
             destinationVC.bottomScore = quizMaster.getScore()
-        }
+        }*/
     }
     
     func moveBoard() {
-        if (quizMaster.getScore() == 10) {
             performSegue(withIdentifier: "topToFinal", sender: self)
-        }
-        else if (quizMaster.getScore() > 0) {
+        /*else if (quizMaster.getScore() > 0) {
             performSegue(withIdentifier: "middleToFinal", sender: self)
         }
         else {
             performSegue(withIdentifier: "bottomToFinal", sender: self)
-        }
+        }*/
     }
     
     //
