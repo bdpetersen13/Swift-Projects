@@ -50,7 +50,7 @@ Listed below are images of the application:
 
 There is still much to be done with this project, and it's far from completion. The following steps of the project I intend to implement are as follows:
 
-1. Move three result views into one view that changes based on the final score 
+:white_check_mark: 1. ~~Move three result views into one view that changes based on the final score~~ 
 
 2. Change the trophy image to reflect the user's final score
 
