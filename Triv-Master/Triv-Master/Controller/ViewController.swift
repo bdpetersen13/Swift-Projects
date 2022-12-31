@@ -53,6 +53,22 @@ class ViewController: UIViewController {
         Timer.scheduledTimer(timeInterval: 0.3, target: self, selector: #selector(updateUI), userInfo: nil, repeats: false)
     }
     
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "topToFinal" {
+            let destinationVC = segue.destination as! TopScoreViewController
+            destinationVC.topScore = quizMaster.getScore() 
+        }
+        else if segue.identifier == "middleToFinal" {
+            let destinationVC = segue.destination as! MiddleScoreViewController
+            destinationVC.middleScore = quizMaster.getScore()
+        }
+        else if segue.identifier == "bottomToFinal" {
+            let destinationVC = segue.destination as! BottomScoreViewController
+            destinationVC.bottomScore = quizMaster.getScore()
+        }
+    }
+    
     func moveBoard() {
         if (quizMaster.getScore() == 10) {
             performSegue(withIdentifier: "topToFinal", sender: self)

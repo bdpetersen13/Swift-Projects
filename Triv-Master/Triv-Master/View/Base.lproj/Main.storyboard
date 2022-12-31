@@ -157,10 +157,10 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="trophy" translatesAutoresizingMaskIntoConstraints="NO" id="8H8-lz-SZr" userLabel="TrophyImageView">
-                                        <rect key="frame" x="15" y="44.999999999999972" width="367" height="441.33333333333326"/>
+                                        <rect key="frame" x="15" y="44.999999999999972" width="367" height="461.33333333333326"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Greeting Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zpa-K9-yQI" userLabel="GreetingLabel">
-                                        <rect key="frame" x="89" y="501.33333333333337" width="219" height="42"/>
+                                        <rect key="frame" x="89" y="521.33333333333337" width="219" height="42"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="42" id="bIJ-DE-BXc"/>
                                         </constraints>
@@ -169,13 +169,13 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How You Did" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c4C-tC-2Nl" userLabel="HowYouDidLabel">
-                                        <rect key="frame" x="142.66666666666666" y="558.33333333333337" width="112" height="24"/>
+                                        <rect key="frame" x="142.66666666666666" y="578.33333333333337" width="112" height="24"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <color key="textColor" red="0.94901960780000005" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Final Score" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zbb-pF-Soz" userLabel="ScoreLabel">
-                                        <rect key="frame" x="139.33333333333334" y="597.33333333333337" width="118.66666666666666" height="30"/>
+                                        <rect key="frame" x="139.33333333333334" y="617.33333333333337" width="118.66666666666666" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="iWN-e9-w8x"/>
                                         </constraints>
@@ -184,16 +184,16 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Would You Like to Play Again?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zPo-Fq-VWi" userLabel="TryAgainLabel">
-                                        <rect key="frame" x="78.666666666666671" y="642.33333333333337" width="239.66666666666663" height="21.666666666666629"/>
+                                        <rect key="frame" x="78.666666666666671" y="662.33333333333337" width="239.66666666666663" height="21.666666666666629"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" red="0.94901960780000005" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="rfU-sG-YyJ">
-                                        <rect key="frame" x="43.666666666666657" y="679" width="310" height="80"/>
+                                        <rect key="frame" x="43.666666666666657" y="699" width="310" height="60"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cPB-qw-fLe" userLabel="ChoiceOneButton">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="80"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="150" height="60"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="150" id="C7N-1j-pGm"/>
                                                 </constraints>
@@ -203,14 +203,14 @@
                                                     <color key="titleColor" red="0.94901960780000005" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="J2Y-w4-6pv"/>
+                                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="8yB-pe-OYK"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nC1-fA-rQ1" userLabel="ChoiceOneButton">
-                                                <rect key="frame" x="160" y="0.0" width="150" height="80"/>
+                                                <rect key="frame" x="160" y="0.0" width="150" height="60"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="F9J-Is-Roh"/>
-                                                    <constraint firstAttribute="height" constant="80" id="QZN-n4-Cye"/>
+                                                    <constraint firstAttribute="height" constant="60" id="QZN-n4-Cye"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -269,10 +269,10 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="trophy" translatesAutoresizingMaskIntoConstraints="NO" id="3vj-xS-NPc" userLabel="TrophyImageView">
-                                        <rect key="frame" x="15" y="44.999999999999972" width="367" height="486.33333333333326"/>
+                                        <rect key="frame" x="15" y="44.999999999999972" width="367" height="461.33333333333326"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Greeting Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ojg-xh-hs9" userLabel="GreetingLabel">
-                                        <rect key="frame" x="89" y="546.33333333333337" width="219" height="42"/>
+                                        <rect key="frame" x="89" y="521.33333333333337" width="219" height="42"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="42" id="lkk-a4-pTY"/>
                                         </constraints>
@@ -281,22 +281,31 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How You Did" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PiA-Sr-yem" userLabel="HowYouDidLabel">
-                                        <rect key="frame" x="142.66666666666666" y="603.33333333333337" width="112" height="24"/>
+                                        <rect key="frame" x="142.66666666666666" y="578.33333333333337" width="112" height="24"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <color key="textColor" red="0.94901960780000005" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Final Score" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xQw-bW-POD" userLabel="ScoreLabel">
+                                        <rect key="frame" x="139.33333333333334" y="617.33333333333337" width="118.66666666666666" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="EIu-oi-LjV"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <color key="textColor" red="0.80784313730000001" green="0.46666666670000001" blue="0.46666666670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Would You Like to Play Again?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Y1-mT-yhb" userLabel="TryAgainLabel">
-                                        <rect key="frame" x="78.666666666666671" y="642.33333333333337" width="239.66666666666663" height="21.666666666666629"/>
+                                        <rect key="frame" x="78.666666666666671" y="662.33333333333337" width="239.66666666666663" height="21.666666666666629"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" red="0.94901960780000005" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="u8P-rC-d5y">
-                                        <rect key="frame" x="43.666666666666657" y="679" width="310" height="80"/>
+                                        <rect key="frame" x="43.666666666666657" y="699" width="310" height="60"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kdL-oU-Zmg" userLabel="ChoiceOneButton">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="80"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="150" height="60"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="150" id="o1c-Cw-ygm"/>
                                                 </constraints>
@@ -307,13 +316,13 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="yesButton:" destination="JMi-8q-TrX" eventType="touchUpInside" id="hfc-wj-Mu5"/>
-                                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="pi0-eb-rWW"/>
+                                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="g1Y-IY-9qs"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OOM-0I-19e" userLabel="ChoiceOneButton">
-                                                <rect key="frame" x="160" y="0.0" width="150" height="80"/>
+                                                <rect key="frame" x="160" y="0.0" width="150" height="60"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="80" id="X2H-lX-29v"/>
+                                                    <constraint firstAttribute="height" constant="60" id="X2H-lX-29v"/>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="tBn-HB-WmK"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -346,6 +355,7 @@
                         <outlet property="greetingLabel" destination="ojg-xh-hs9" id="RGj-Oi-SOg"/>
                         <outlet property="howYouDidLabel" destination="PiA-Sr-yem" id="vti-UZ-NgK"/>
                         <outlet property="pageTitleLabel" destination="wZV-hI-drW" id="uPb-dA-v5V"/>
+                        <outlet property="scoreLabel" destination="xQw-bW-POD" id="0hQ-7D-sQ1"/>
                         <outlet property="trophyImage" destination="3vj-xS-NPc" id="5kV-Gd-T2a"/>
                         <outlet property="tryAgainLabel" destination="9Y1-mT-yhb" id="dOz-lO-PJY"/>
                     </connections>
@@ -372,10 +382,10 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="trophy" translatesAutoresizingMaskIntoConstraints="NO" id="PYd-uC-8nt" userLabel="TrophyImageView">
-                                        <rect key="frame" x="15" y="44.999999999999972" width="367" height="441.33333333333326"/>
+                                        <rect key="frame" x="15" y="44.999999999999972" width="367" height="461.33333333333326"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Greeting Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LmP-Uc-aFk" userLabel="GreetingLabel">
-                                        <rect key="frame" x="89" y="501.33333333333337" width="219" height="42"/>
+                                        <rect key="frame" x="89" y="521.33333333333337" width="219" height="42"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="42" id="kWI-3q-O9b"/>
                                         </constraints>
@@ -384,13 +394,13 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How You Did" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dGb-1J-5bL" userLabel="HowYouDidLabel">
-                                        <rect key="frame" x="142.66666666666666" y="558.33333333333337" width="112" height="24"/>
+                                        <rect key="frame" x="142.66666666666666" y="578.33333333333337" width="112" height="24"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <color key="textColor" red="0.94901960780000005" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Final Score" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n3F-Xk-iLA" userLabel="ScoreLabel">
-                                        <rect key="frame" x="139.33333333333334" y="597.33333333333337" width="118.66666666666666" height="30"/>
+                                        <rect key="frame" x="139.33333333333334" y="617.33333333333337" width="118.66666666666666" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="OqQ-kV-JmY"/>
                                         </constraints>
@@ -399,17 +409,18 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Would You Like to Play Again?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i8X-Ll-LYf" userLabel="TryAgainLabel">
-                                        <rect key="frame" x="78.666666666666671" y="642.33333333333337" width="239.66666666666663" height="21.666666666666629"/>
+                                        <rect key="frame" x="78.666666666666671" y="662.33333333333337" width="239.66666666666663" height="21.666666666666629"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" red="0.94901960780000005" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="CDG-a3-9K1">
-                                        <rect key="frame" x="43.666666666666657" y="679" width="310" height="80"/>
+                                        <rect key="frame" x="43.666666666666657" y="699" width="310" height="60"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3IO-tU-bch" userLabel="ChoiceOneButton">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="80"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="150" height="60"/>
                                                 <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="Vhi-EC-PXL"/>
                                                     <constraint firstAttribute="width" constant="150" id="uvf-bY-o7c"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -418,13 +429,13 @@
                                                     <color key="titleColor" red="0.94901960780000005" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="fLi-L0-A0t"/>
+                                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="VoX-AP-43V"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dBZ-Id-pai" userLabel="ChoiceOneButton">
-                                                <rect key="frame" x="160" y="0.0" width="150" height="80"/>
+                                                <rect key="frame" x="160" y="0.0" width="150" height="60"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="80" id="EN1-Rf-Cfa"/>
+                                                    <constraint firstAttribute="height" constant="60" id="EN1-Rf-Cfa"/>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="sHj-sl-FA9"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -468,7 +479,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="J2Y-w4-6pv"/>
+        <segue reference="8yB-pe-OYK"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Rectangle" width="322" height="68"/>

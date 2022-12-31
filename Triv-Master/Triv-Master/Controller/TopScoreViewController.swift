@@ -19,11 +19,11 @@ class TopScoreViewController: UIViewController {
     @IBOutlet weak var tryAgainLabel: UILabel!
     
     var quizMaster = QuizMaster()
+    var topScore: Int?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        scoreLabel.text = "\(quizMaster.getScore()) / 10"
         pageTitleLabel.text = "Results"
         labelBasedScore()
     }
@@ -31,5 +31,6 @@ class TopScoreViewController: UIViewController {
     func labelBasedScore() {
         greetingLabel.text = "Congragulations!"
         howYouDidLabel.text = "You Got All the Questions Correct!"
+        scoreLabel.text = String(topScore!) + " / 10"
     }
 }

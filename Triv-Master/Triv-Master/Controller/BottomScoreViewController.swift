@@ -19,11 +19,12 @@ class BottomScoreViewController: UIViewController {
     @IBOutlet weak var tryAgainLabel: UILabel!
 
     var quizMaster = QuizMaster()
+    var bottomScore: Int?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        scoreLabel.text = String(quizMaster.getScore())
+        scoreLabel.text = String(bottomScore!) + " / 10"
         pageTitleLabel.text = "Results"
         labelBasedScore()
     }
@@ -31,6 +32,5 @@ class BottomScoreViewController: UIViewController {
     func labelBasedScore() {
         greetingLabel.text = "Better Luck Next Time!"
         howYouDidLabel.text = "You Didn't Get Any Questions Correct! Better Luck Next Time!"
-        scoreLabel.text = "0 / 10"
     }
 }

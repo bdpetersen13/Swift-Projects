@@ -19,11 +19,11 @@ class MiddleScoreViewController: UIViewController {
     @IBOutlet weak var tryAgainLabel: UILabel!
 
     var quizMaster = QuizMaster()
+    var middleScore: Int?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //scoreLabel.text = String(quizMaster.getScore())
         pageTitleLabel.text = "Results"
         labelBasedScore()
     }
@@ -31,6 +31,6 @@ class MiddleScoreViewController: UIViewController {
     func labelBasedScore() {
         greetingLabel.text = "Good Job!"
         howYouDidLabel.text = "You Got Some Questions Correct!"
-        //scoreLabel.text = String(quizMaster.getScore())
+        scoreLabel.text = String(middleScore!) + " / 10"
     }
 }
