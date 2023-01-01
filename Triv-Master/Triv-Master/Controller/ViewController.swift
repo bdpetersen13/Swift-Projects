@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     
     var quizMaster = QuizMaster()
     var player: AVAudioPlayer!
+    var userSelection: String?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,7 +30,6 @@ class ViewController: UIViewController {
     }
     
     @IBAction func buttonActuated(_ sender: UIButton) {
-        // print(sender.currentTitle!)
         let userAnswer = sender.currentTitle!
         let userAnswerIsCorrect = quizMaster.checkAnswer(userAnswer)
         
@@ -82,7 +82,7 @@ class ViewController: UIViewController {
     //
     func nextQuestion() {
         // Safety check to ensure the array is not out of index
-        if (quizMaster.questionNumber + 1 < quizMaster.questions.count) {
+        if (quizMaster.questionNumber + 1 < quizMaster.randomQuestions.count) {
             quizMaster.questionNumber += 1
         }
         else {

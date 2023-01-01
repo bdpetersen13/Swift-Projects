@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--HomePage View Controller-->
+        <scene sceneID="Dx4-8R-UnV">
+            <objects>
+                <viewController id="Rbx-Qh-BA2" userLabel="HomePage View Controller" customClass="HomePageViewController" customModule="Triv_Master" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qPK-pb-BYJ">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="1200"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Hi-NI-1ga">
+                                <rect key="frame" x="0.0" y="59" width="393" height="1141"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ayt-gJ-dGl" userLabel="ContentView">
+                                        <rect key="frame" x="-8" y="17" width="393" height="1200"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let's Play" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OZw-TP-Ft9">
+                                                <rect key="frame" x="12" y="-14" width="205" height="60"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                                <color key="textColor" red="0.92941176469999998" green="0.46666666670000001" blue="0.56078431370000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select A Quiz Below!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hav-bq-6GO">
+                                                <rect key="frame" x="14" y="36" width="142" height="18"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <color key="textColor" red="0.80784313730000001" green="0.46666666670000001" blue="0.46666666670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="epc-Mg-iZ1">
+                                                <rect key="frame" x="56" y="196" width="281" height="140"/>
+                                                <color key="backgroundColor" red="0.0" green="0.45882352939999999" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="140" id="tbb-Ae-n28"/>
+                                                </constraints>
+                                                <color key="tintColor" red="0.90980392160000001" green="0.76862745099999996" blue="0.76862745099999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Random Trivia">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="buttonActuated:" destination="Rbx-Qh-BA2" eventType="touchUpInside" id="wjK-ir-skN"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VFZ-yR-TCo">
+                                                <rect key="frame" x="56" y="417" width="281" height="140"/>
+                                                <color key="backgroundColor" red="0.0" green="0.45882352939999999" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="140" id="G8K-bo-FOl"/>
+                                                </constraints>
+                                                <color key="tintColor" red="0.90980392160000001" green="0.76862745099999996" blue="0.76862745099999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Science Trivia">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="buttonActuated:" destination="Rbx-Qh-BA2" eventType="touchUpInside" id="Oqe-hE-Bjj"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kO8-Se-BAr">
+                                                <rect key="frame" x="56" y="637" width="281" height="140"/>
+                                                <color key="backgroundColor" red="0.0" green="0.45882352939999999" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="140" id="Zfh-mR-qTo"/>
+                                                </constraints>
+                                                <color key="tintColor" red="0.90980392160000001" green="0.76862745099999996" blue="0.76862745099999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="History Trivia">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="buttonActuated:" destination="Rbx-Qh-BA2" eventType="touchUpInside" id="daF-Ln-Vxp"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YkO-6Q-84E">
+                                                <rect key="frame" x="56" y="860" width="281" height="140"/>
+                                                <color key="backgroundColor" red="0.0" green="0.45882352939999999" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="140" id="itS-kg-ca6"/>
+                                                </constraints>
+                                                <color key="tintColor" red="0.90980392160000001" green="0.76862745099999996" blue="0.76862745099999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Movie Trivia">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="buttonActuated:" destination="Rbx-Qh-BA2" eventType="touchUpInside" id="lZ0-Ez-l4N"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Random_Trivia" translatesAutoresizingMaskIntoConstraints="NO" id="bXR-Dy-YHE">
+                                                <rect key="frame" x="266" y="155" width="119" height="95"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="History_Trivia" translatesAutoresizingMaskIntoConstraints="NO" id="XfZ-dj-grB">
+                                                <rect key="frame" x="266" y="593" width="119" height="95"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="95" id="ZW7-l1-C0i"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Movie_Trivia" translatesAutoresizingMaskIntoConstraints="NO" id="qZz-yB-rVu">
+                                                <rect key="frame" x="266" y="817" width="119" height="95"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Science_Trivia" translatesAutoresizingMaskIntoConstraints="NO" id="R24-bv-abb">
+                                                <rect key="frame" x="266" y="367" width="119" height="95"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.16862745100000001" green="0.2274509804" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1200" id="2k4-9S-0ct"/>
+                                            <constraint firstItem="XfZ-dj-grB" firstAttribute="leading" secondItem="Ayt-gJ-dGl" secondAttribute="leading" constant="266" id="4UA-8W-kA2"/>
+                                            <constraint firstItem="VFZ-yR-TCo" firstAttribute="leading" secondItem="epc-Mg-iZ1" secondAttribute="leading" id="7MD-RS-gGz"/>
+                                            <constraint firstAttribute="bottom" secondItem="kO8-Se-BAr" secondAttribute="bottom" constant="423" id="7ki-oM-xZU"/>
+                                            <constraint firstItem="VFZ-yR-TCo" firstAttribute="trailing" secondItem="epc-Mg-iZ1" secondAttribute="trailing" id="G11-Fr-4GJ"/>
+                                            <constraint firstItem="R24-bv-abb" firstAttribute="leading" secondItem="Ayt-gJ-dGl" secondAttribute="leading" constant="266" id="H4w-xP-DYX"/>
+                                            <constraint firstItem="OZw-TP-Ft9" firstAttribute="leading" secondItem="Ayt-gJ-dGl" secondAttribute="leadingMargin" constant="4" id="KaA-Fs-Rs4"/>
+                                            <constraint firstItem="epc-Mg-iZ1" firstAttribute="leading" secondItem="Ayt-gJ-dGl" secondAttribute="leading" constant="56" id="N5A-sm-Dgn"/>
+                                            <constraint firstItem="kO8-Se-BAr" firstAttribute="trailing" secondItem="VFZ-yR-TCo" secondAttribute="trailing" id="P6N-AO-qqA"/>
+                                            <constraint firstItem="hav-bq-6GO" firstAttribute="leading" secondItem="Ayt-gJ-dGl" secondAttribute="leading" constant="14" id="PCw-6U-7Ds"/>
+                                            <constraint firstItem="epc-Mg-iZ1" firstAttribute="centerX" secondItem="Ayt-gJ-dGl" secondAttribute="centerX" id="T4B-Cj-z1X"/>
+                                            <constraint firstItem="XfZ-dj-grB" firstAttribute="top" secondItem="VFZ-yR-TCo" secondAttribute="bottom" constant="36" id="Tje-36-wBG"/>
+                                            <constraint firstItem="OZw-TP-Ft9" firstAttribute="top" secondItem="Ayt-gJ-dGl" secondAttribute="top" constant="-14" id="Wk4-ce-x7t"/>
+                                            <constraint firstItem="XfZ-dj-grB" firstAttribute="top" secondItem="R24-bv-abb" secondAttribute="bottom" constant="131" id="Wr4-Yf-zPS"/>
+                                            <constraint firstItem="kO8-Se-BAr" firstAttribute="leading" secondItem="VFZ-yR-TCo" secondAttribute="leading" id="XJk-Lb-e9D"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="hav-bq-6GO" secondAttribute="trailing" constant="20" symbolic="YES" id="XpL-Lz-EM9"/>
+                                            <constraint firstItem="R24-bv-abb" firstAttribute="top" secondItem="epc-Mg-iZ1" secondAttribute="bottom" constant="31" id="Zn5-SY-NUt"/>
+                                            <constraint firstItem="YkO-6Q-84E" firstAttribute="top" secondItem="kO8-Se-BAr" secondAttribute="bottom" constant="83" id="cRK-gZ-oas"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="OZw-TP-Ft9" secondAttribute="trailing" constant="20" symbolic="YES" id="gka-uk-B3F"/>
+                                            <constraint firstItem="YkO-6Q-84E" firstAttribute="leading" secondItem="kO8-Se-BAr" secondAttribute="leading" id="jsP-xe-ODD"/>
+                                            <constraint firstItem="YkO-6Q-84E" firstAttribute="trailing" secondItem="kO8-Se-BAr" secondAttribute="trailing" id="ne1-2E-UeX"/>
+                                            <constraint firstItem="VFZ-yR-TCo" firstAttribute="top" secondItem="Ayt-gJ-dGl" secondAttribute="top" constant="417" id="oPT-7G-oJg"/>
+                                            <constraint firstAttribute="trailing" secondItem="XfZ-dj-grB" secondAttribute="trailing" constant="8" id="qzd-DQ-6DO"/>
+                                            <constraint firstAttribute="trailing" secondItem="R24-bv-abb" secondAttribute="trailing" constant="8" id="xlw-4a-W2r"/>
+                                            <constraint firstItem="epc-Mg-iZ1" firstAttribute="top" secondItem="Ayt-gJ-dGl" secondAttribute="top" constant="196" id="yKB-eD-q1e"/>
+                                            <constraint firstItem="hav-bq-6GO" firstAttribute="top" secondItem="Ayt-gJ-dGl" secondAttribute="top" constant="36" id="zKG-Dc-pXg"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Ayt-gJ-dGl" firstAttribute="centerX" secondItem="6Hi-NI-1ga" secondAttribute="centerX" constant="-8" id="Dqa-cd-iO4"/>
+                                    <constraint firstAttribute="bottom" secondItem="Ayt-gJ-dGl" secondAttribute="bottom" constant="-76" id="F81-RW-Xu7"/>
+                                    <constraint firstItem="Ayt-gJ-dGl" firstAttribute="leading" secondItem="6Hi-NI-1ga" secondAttribute="leading" constant="-8" id="IaX-HR-OIY"/>
+                                    <constraint firstItem="Ayt-gJ-dGl" firstAttribute="top" secondItem="6Hi-NI-1ga" secondAttribute="top" constant="17" id="mLS-of-oRK"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ayt-gJ-dGl" secondAttribute="trailing" constant="8" id="o3b-vZ-5sc"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="QtF-zR-80D"/>
+                        <color key="backgroundColor" red="0.16862745100000001" green="0.2274509804" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Hi-NI-1ga" firstAttribute="centerX" secondItem="qPK-pb-BYJ" secondAttribute="centerX" id="BYk-z9-kmN"/>
+                            <constraint firstItem="6Hi-NI-1ga" firstAttribute="top" secondItem="QtF-zR-80D" secondAttribute="top" id="EJ8-1G-WFt"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="6Hi-NI-1ga" secondAttribute="bottom" constant="-34" id="PON-Bg-lQW"/>
+                            <constraint firstItem="6Hi-NI-1ga" firstAttribute="leading" secondItem="QtF-zR-80D" secondAttribute="leading" id="yaP-gl-dh8"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="393" height="1200"/>
+                    <connections>
+                        <outlet property="historyTrivia" destination="kO8-Se-BAr" id="tY0-BG-TPo"/>
+                        <outlet property="movieTrivia" destination="YkO-6Q-84E" id="EVU-R6-icO"/>
+                        <outlet property="randomTrivia" destination="epc-Mg-iZ1" id="ei4-BO-ddM"/>
+                        <outlet property="scienceTrivia" destination="VFZ-yR-TCo" id="GKT-K7-cZa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="abf-Za-ACc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-782.44274809160299" y="-19.014084507042256"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="History_Trivia" width="1024" height="1024"/>
+        <image name="Movie_Trivia" width="1024" height="1024"/>
+        <image name="Random_Trivia" width="1024" height="1024"/>
+        <image name="Science_Trivia" width="1024" height="1024"/>
+    </resources>
+</document>
