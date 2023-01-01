@@ -52,7 +52,7 @@ There is still much to be done with this project, and it's far from completion. 
 
 :white_check_mark: 1. ~~Move three result views into one view that changes based on the final score~~ 
 
-2. Change the trophy image to reflect the user's final score
+:white_check_mark: 2. ~~Change the trophy image to reflect the user's final score~~
 
 3. Add multiple quizzes that are selected at random for the user to take
 
