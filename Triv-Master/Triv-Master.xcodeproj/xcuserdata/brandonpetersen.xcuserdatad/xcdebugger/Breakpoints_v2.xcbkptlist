@@ -122,8 +122,8 @@
             filePath = "Triv-Master/Controller/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "88"
-            endingLineNumber = "88"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
             landmarkName = "nextQuestion()"
             landmarkType = "7">
          </BreakpointContent>

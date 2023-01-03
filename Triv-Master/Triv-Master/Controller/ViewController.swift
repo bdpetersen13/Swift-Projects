@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     
     var quizMaster = QuizMaster()
     var player: AVAudioPlayer!
+    
     var userSelection: String?
 
     override func viewDidLoad() {
@@ -47,36 +48,20 @@ class ViewController: UIViewController {
             player.play()
         }
         
-        //quizMaster.nextQuestion()
         nextQuestion()
         
         Timer.scheduledTimer(timeInterval: 0.3, target: self, selector: #selector(updateUI), userInfo: nil, repeats: false)
     }
-    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "topToFinal" {
             let destinationVC = segue.destination as! TopScoreViewController
             destinationVC.finalScore = quizMaster.getScore()
         }
-        /*else if segue.identifier == "middleToFinal" {
-            let destinationVC = segue.destination as! MiddleScoreViewController
-            destinationVC.middleScore = quizMaster.getScore()
-        }
-        else if segue.identifier == "bottomToFinal" {
-            let destinationVC = segue.destination as! BottomScoreViewController
-            destinationVC.bottomScore = quizMaster.getScore()
-        }*/
     }
     
     func moveBoard() {
             performSegue(withIdentifier: "topToFinal", sender: self)
-        /*else if (quizMaster.getScore() > 0) {
-            performSegue(withIdentifier: "middleToFinal", sender: self)
-        }
-        else {
-            performSegue(withIdentifier: "bottomToFinal", sender: self)
-        }*/
     }
     
     //
@@ -88,9 +73,6 @@ class ViewController: UIViewController {
         else {
             print(quizMaster.getScore())
             moveBoard()
-            
-            //quizMaster.questionNumber = 0
-            //quizMaster.score = 0
         }
     }
     //

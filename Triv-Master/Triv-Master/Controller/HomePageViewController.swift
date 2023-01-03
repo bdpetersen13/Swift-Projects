@@ -19,12 +19,12 @@ class HomePageViewController: UIViewController {
         let userSelection = sender.currentTitle!
     }
     
-    var userQuiz = ""
+    var userQuiz: String?
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "randomToQuestions" {
-            userQuiz = "randomQuiz"
-            let destinationVC = segue.destination as! ViewController
+            userQuiz = "randomQuestions"
+            var destinationVC = segue.destination as! ViewController
             destinationVC.userSelection = userQuiz
         }
     }
