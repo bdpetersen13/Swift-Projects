@@ -37,13 +37,14 @@ Once the array has reached the end, based on the user's final score, the applica
 
 Listed below are images of the application:
 
-![giphy](https://user-images.githubusercontent.com/89234922/209873634-b1e615e1-27cd-4505-9a43-f149da6987a5.gif)
+![giphy](https://user-images.githubusercontent.com/89234922/210290406-c6e16bb8-1019-4cc3-bcc1-58e487daa5ec.gif)
 
-![image](https://user-images.githubusercontent.com/89234922/209873660-61181964-bdd3-4d47-b548-abbefce8a890.png)
+![Simulator Screen Shot - iPhone 14 Pro - 2023-01-02 at 20 00 33](https://user-images.githubusercontent.com/89234922/210288607-499d9619-f3fc-4a46-a88f-1d1e783b0852.png)
 
-![image](https://user-images.githubusercontent.com/89234922/209873679-ee8f90e5-d4b9-4822-9264-099ebd13a6aa.png)
+![Simulator Screen Shot - iPhone 14 Pro - 2023-01-02 at 20 00 45](https://user-images.githubusercontent.com/89234922/210288611-90a61c60-f36a-4201-b685-4c094acea101.png)
 
-![image](https://user-images.githubusercontent.com/89234922/209873700-bb4f1fc2-3a0e-465e-8393-a9aaab9488b5.png)
+![Simulator Screen Shot - iPhone 14 Pro - 2023-01-02 at 20 01 00](https://user-images.githubusercontent.com/89234922/210288616-fdb6d983-506a-49cf-b789-6e0d6d5c93ea.png)
+
 
 
 ## Roadmap
@@ -56,6 +57,6 @@ There is still much to be done with this project, and it's far from completion. 
 
 3. Add multiple quizzes that are selected at random for the user to take
 
-4. Add a home page where the user can choose a specific type/subject quiz
+:white_check_mark: 4. ~~Add a home page where the user can choose a specific type/subject quiz~~
 
-5. Add functionality to no button to take the user to the home page
+:white_check_mark: 5. ~~Add functionality to no button to take the user to the home page~~
