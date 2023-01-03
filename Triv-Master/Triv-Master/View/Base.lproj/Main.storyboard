@@ -16,6 +16,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="1200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gradient" translatesAutoresizingMaskIntoConstraints="NO" id="8qE-Ql-OSA">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="1374"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sGy-89-15s">
                                 <rect key="frame" x="0.0" y="59" width="393" height="1141"/>
                                 <subviews>
@@ -132,7 +136,7 @@
                                                 <rect key="frame" x="266" y="367" width="119" height="95"/>
                                             </imageView>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.16862745100000001" green="0.2274509804" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="mXv-bp-hws" secondAttribute="trailing" constant="20" symbolic="YES" id="A9c-86-VN6"/>
                                             <constraint firstItem="VU0-uV-oLG" firstAttribute="trailing" secondItem="CfZ-yM-jDo" secondAttribute="trailing" id="FsY-sD-k7R"/>
