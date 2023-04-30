@@ -19,7 +19,7 @@ Once you have the project saved on your local device, upload the project to your
 
 ## Usage
 
-When opening the application, the user is greeted with a single-view application with a button labeled "Erase Clipboard" directly in the center of the screen.
+When opening the application, the user is greeted with a single-view application with a button labeled "Erase Clipboard" directly in the center of the screen. The background of the application is based on the user's default "Light" or "Dark" appearance.
 
 When the user presses the button, a pop-up notification informs the user their clipboard has been erased. In addition, above the button, a text label appears stating "Clipboard Erased!"
 
