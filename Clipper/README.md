@@ -26,3 +26,8 @@ When the user presses the button, a pop-up notification informs the user their c
 Listed below are images of the application:
 
 
+![Simulator Screenshot - iPhone 14 Pro - 2023-04-30 at 15 41 06](https://user-images.githubusercontent.com/89234922/235376398-ab9456a8-ae60-421d-9816-ee7fc59852d6.png)
+
+![Simulator Screenshot - iPhone 14 Pro - 2023-04-30 at 15 41 09](https://user-images.githubusercontent.com/89234922/235376400-4cabd215-03f2-44db-8227-55459b3dc9bc.png)
+
+![Simulator Screenshot - iPhone 14 Pro - 2023-04-30 at 15 41 11](https://user-images.githubusercontent.com/89234922/235376401-ff0ce0d6-500e-44be-8705-edc7fe6ad913.png)
