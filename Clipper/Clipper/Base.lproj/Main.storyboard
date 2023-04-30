@@ -17,9 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Clipboard Erased!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ekt-Lx-qtC">
-                                <rect key="frame" x="128" y="257" width="136" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clipboard Erased!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ekt-Lx-qtC">
+                                <rect key="frame" x="128.66666666666666" y="257" width="135.99999999999997" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -47,6 +46,8 @@
                         <constraints>
                             <constraint firstItem="87u-no-eJ8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5fg-P9-VZv"/>
                             <constraint firstItem="87u-no-eJ8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="a9d-ey-uQU"/>
+                            <constraint firstItem="Ekt-Lx-qtC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hGT-sw-RM6"/>
+                            <constraint firstItem="87u-no-eJ8" firstAttribute="top" secondItem="Ekt-Lx-qtC" secondAttribute="bottom" constant="73" id="sJI-WO-YHL"/>
                         </constraints>
                     </view>
                     <connections>
