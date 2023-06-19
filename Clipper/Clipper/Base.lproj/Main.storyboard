@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dz2-Xz-0pL">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Erase-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Clipper" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="EraseClipboardViewController" customModule="Clipper" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -50,6 +50,7 @@
                             <constraint firstItem="87u-no-eJ8" firstAttribute="top" secondItem="Ekt-Lx-qtC" secondAttribute="bottom" constant="73" id="sJI-WO-YHL"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Erase" image="eraser" catalog="system" selectedImage="eraser" id="YEz-kQ-Epw"/>
                     <connections>
                         <outlet property="clipboardLabel" destination="Ekt-Lx-qtC" id="5sW-sT-62A"/>
                         <outlet property="eraseButton" destination="87u-no-eJ8" id="fen-rz-V30"/>
@@ -57,10 +58,59 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="43.511450381679388" y="-27.464788732394368"/>
+            <point key="canvasLocation" x="1743" y="330"/>
+        </scene>
+        <!--History-->
+        <scene sceneID="twK-ex-aNY">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iDc-1D-330" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="DQb-Wl-SUc" customClass="ClipboardHistoryViewController" customModule="Clipper" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lC4-Pt-cUd">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="DDo-fk-Lye">
+                                <rect key="frame" x="0.0" y="59" width="393" height="710"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="IvU-Gh-2fi"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="History" image="clipboard" catalog="system" selectedImage="clipboard" id="ZCZ-aa-fbd"/>
+                    <connections>
+                        <outlet property="tableView" destination="DDo-fk-Lye" id="S3c-Vp-KRr"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1742.7480916030534" y="-331.69014084507046"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="SPJ-q8-PGp">
+            <objects>
+                <tabBarController id="dz2-Xz-0pL" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1zE-R3-uMp">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="DQb-Wl-SUc" kind="relationship" relationship="viewControllers" id="QJo-OY-ynx"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="iBh-uD-MnK"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yOj-ES-Ogs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="840" y="-27"/>
         </scene>
     </scenes>
     <resources>
+        <image name="clipboard" catalog="system" width="103" height="128"/>
+        <image name="eraser" catalog="system" width="128" height="119"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBlueColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

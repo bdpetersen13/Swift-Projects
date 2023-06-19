@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		268305922A03D3FE00A3DC9B /* ClipboardHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268305912A03D3FE00A3DC9B /* ClipboardHistoryViewController.swift */; };
-		268305942A03D4FC00A3DC9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268305932A03D4FC00A3DC9B /* ViewController.swift */; };
-		269B6ACC29FEEA25003F40B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269B6ACB29FEEA25003F40B2 /* AppDelegate.swift */; };
-		269B6ACE29FEEA25003F40B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269B6ACD29FEEA25003F40B2 /* SceneDelegate.swift */; };
-		269B6AD029FEEA25003F40B2 /* EraseClipboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269B6ACF29FEEA25003F40B2 /* EraseClipboardViewController.swift */; };
-		269B6AD329FEEA25003F40B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269B6AD129FEEA25003F40B2 /* Main.storyboard */; };
-		269B6AD529FEEA26003F40B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269B6AD429FEEA26003F40B2 /* Assets.xcassets */; };
-		269B6AD829FEEA26003F40B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269B6AD629FEEA26003F40B2 /* LaunchScreen.storyboard */; };
+		2613A9D22A02E0AD009E56B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613A9D12A02E0AD009E56B9 /* AppDelegate.swift */; };
+		2613A9D42A02E0AD009E56B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613A9D32A02E0AD009E56B9 /* SceneDelegate.swift */; };
+		2613A9D62A02E0AD009E56B9 /* EraseClipboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613A9D52A02E0AD009E56B9 /* EraseClipboardViewController.swift */; };
+		2613A9D92A02E0AD009E56B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2613A9D72A02E0AD009E56B9 /* Main.storyboard */; };
+		2613A9DB2A02E0AE009E56B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2613A9DA2A02E0AE009E56B9 /* Assets.xcassets */; };
+		2613A9DE2A02E0AE009E56B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2613A9DC2A02E0AE009E56B9 /* LaunchScreen.storyboard */; };
+		2613A9E62A02E13C009E56B9 /* ClipboardHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613A9E52A02E13C009E56B9 /* ClipboardHistoryViewController.swift */; };
+		2613A9E82A02F339009E56B9 /* ClipboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613A9E72A02F339009E56B9 /* ClipboardCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		268305912A03D3FE00A3DC9B /* ClipboardHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardHistoryViewController.swift; sourceTree = "<group>"; };
-		268305932A03D4FC00A3DC9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		269B6AC829FEEA25003F40B2 /* Clipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		269B6ACB29FEEA25003F40B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		269B6ACD29FEEA25003F40B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		269B6ACF29FEEA25003F40B2 /* EraseClipboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EraseClipboardViewController.swift; sourceTree = "<group>"; };
-		269B6AD229FEEA25003F40B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		269B6AD429FEEA26003F40B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		269B6AD729FEEA26003F40B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		269B6AD929FEEA26003F40B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2613A9CE2A02E0AD009E56B9 /* Clipper2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clipper2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2613A9D12A02E0AD009E56B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2613A9D32A02E0AD009E56B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2613A9D52A02E0AD009E56B9 /* EraseClipboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EraseClipboardViewController.swift; sourceTree = "<group>"; };
+		2613A9D82A02E0AD009E56B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2613A9DA2A02E0AE009E56B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2613A9DD2A02E0AE009E56B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2613A9DF2A02E0AE009E56B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2613A9E52A02E13C009E56B9 /* ClipboardHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardHistoryViewController.swift; sourceTree = "<group>"; };
+		2613A9E72A02F339009E56B9 /* ClipboardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		269B6AC529FEEA25003F40B2 /* Frameworks */ = {
+		2613A9CB2A02E0AD009E56B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,74 +41,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		269B6ABF29FEEA25003F40B2 = {
+		2613A9C52A02E0AD009E56B9 = {
 			isa = PBXGroup;
 			children = (
-				269B6ACA29FEEA25003F40B2 /* Clipper */,
-				269B6AC929FEEA25003F40B2 /* Products */,
+				2613A9D02A02E0AD009E56B9 /* Clipper2 */,
+				2613A9CF2A02E0AD009E56B9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		269B6AC929FEEA25003F40B2 /* Products */ = {
+		2613A9CF2A02E0AD009E56B9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				269B6AC829FEEA25003F40B2 /* Clipper.app */,
+				2613A9CE2A02E0AD009E56B9 /* Clipper2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		269B6ACA29FEEA25003F40B2 /* Clipper */ = {
+		2613A9D02A02E0AD009E56B9 /* Clipper2 */ = {
 			isa = PBXGroup;
 			children = (
-				269B6ACB29FEEA25003F40B2 /* AppDelegate.swift */,
-				269B6ACD29FEEA25003F40B2 /* SceneDelegate.swift */,
-				268305912A03D3FE00A3DC9B /* ClipboardHistoryViewController.swift */,
-				269B6ACF29FEEA25003F40B2 /* EraseClipboardViewController.swift */,
-				268305932A03D4FC00A3DC9B /* ViewController.swift */,
-				269B6AD129FEEA25003F40B2 /* Main.storyboard */,
-				269B6AD429FEEA26003F40B2 /* Assets.xcassets */,
-				269B6AD629FEEA26003F40B2 /* LaunchScreen.storyboard */,
-				269B6AD929FEEA26003F40B2 /* Info.plist */,
+				2613A9D12A02E0AD009E56B9 /* AppDelegate.swift */,
+				2613A9D32A02E0AD009E56B9 /* SceneDelegate.swift */,
+				2613A9D52A02E0AD009E56B9 /* EraseClipboardViewController.swift */,
+				2613A9E52A02E13C009E56B9 /* ClipboardHistoryViewController.swift */,
+				2613A9E72A02F339009E56B9 /* ClipboardCell.swift */,
+				2613A9D72A02E0AD009E56B9 /* Main.storyboard */,
+				2613A9DA2A02E0AE009E56B9 /* Assets.xcassets */,
+				2613A9DC2A02E0AE009E56B9 /* LaunchScreen.storyboard */,
+				2613A9DF2A02E0AE009E56B9 /* Info.plist */,
 			);
-			path = Clipper;
+			path = Clipper2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		269B6AC729FEEA25003F40B2 /* Clipper */ = {
+		2613A9CD2A02E0AD009E56B9 /* Clipper2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 269B6ADC29FEEA26003F40B2 /* Build configuration list for PBXNativeTarget "Clipper" */;
+			buildConfigurationList = 2613A9E22A02E0AE009E56B9 /* Build configuration list for PBXNativeTarget "Clipper2" */;
 			buildPhases = (
-				269B6AC429FEEA25003F40B2 /* Sources */,
-				269B6AC529FEEA25003F40B2 /* Frameworks */,
-				269B6AC629FEEA25003F40B2 /* Resources */,
+				2613A9CA2A02E0AD009E56B9 /* Sources */,
+				2613A9CB2A02E0AD009E56B9 /* Frameworks */,
+				2613A9CC2A02E0AD009E56B9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Clipper;
-			productName = Clipper;
-			productReference = 269B6AC829FEEA25003F40B2 /* Clipper.app */;
+			name = Clipper2;
+			productName = Clipper2;
+			productReference = 2613A9CE2A02E0AD009E56B9 /* Clipper2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		269B6AC029FEEA25003F40B2 /* Project object */ = {
+		2613A9C62A02E0AD009E56B9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					269B6AC729FEEA25003F40B2 = {
+					2613A9CD2A02E0AD009E56B9 = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = 269B6AC329FEEA25003F40B2 /* Build configuration list for PBXProject "Clipper" */;
+			buildConfigurationList = 2613A9C92A02E0AD009E56B9 /* Build configuration list for PBXProject "Clipper2" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,57 +116,57 @@
 				en,
 				Base,
 			);
-			mainGroup = 269B6ABF29FEEA25003F40B2;
-			productRefGroup = 269B6AC929FEEA25003F40B2 /* Products */;
+			mainGroup = 2613A9C52A02E0AD009E56B9;
+			productRefGroup = 2613A9CF2A02E0AD009E56B9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				269B6AC729FEEA25003F40B2 /* Clipper */,
+				2613A9CD2A02E0AD009E56B9 /* Clipper2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		269B6AC629FEEA25003F40B2 /* Resources */ = {
+		2613A9CC2A02E0AD009E56B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				269B6AD829FEEA26003F40B2 /* LaunchScreen.storyboard in Resources */,
-				269B6AD529FEEA26003F40B2 /* Assets.xcassets in Resources */,
-				269B6AD329FEEA25003F40B2 /* Main.storyboard in Resources */,
+				2613A9DE2A02E0AE009E56B9 /* LaunchScreen.storyboard in Resources */,
+				2613A9DB2A02E0AE009E56B9 /* Assets.xcassets in Resources */,
+				2613A9D92A02E0AD009E56B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		269B6AC429FEEA25003F40B2 /* Sources */ = {
+		2613A9CA2A02E0AD009E56B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				268305942A03D4FC00A3DC9B /* ViewController.swift in Sources */,
-				268305922A03D3FE00A3DC9B /* ClipboardHistoryViewController.swift in Sources */,
-				269B6AD029FEEA25003F40B2 /* EraseClipboardViewController.swift in Sources */,
-				269B6ACC29FEEA25003F40B2 /* AppDelegate.swift in Sources */,
-				269B6ACE29FEEA25003F40B2 /* SceneDelegate.swift in Sources */,
+				2613A9E62A02E13C009E56B9 /* ClipboardHistoryViewController.swift in Sources */,
+				2613A9D62A02E0AD009E56B9 /* EraseClipboardViewController.swift in Sources */,
+				2613A9D22A02E0AD009E56B9 /* AppDelegate.swift in Sources */,
+				2613A9D42A02E0AD009E56B9 /* SceneDelegate.swift in Sources */,
+				2613A9E82A02F339009E56B9 /* ClipboardCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		269B6AD129FEEA25003F40B2 /* Main.storyboard */ = {
+		2613A9D72A02E0AD009E56B9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				269B6AD229FEEA25003F40B2 /* Base */,
+				2613A9D82A02E0AD009E56B9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		269B6AD629FEEA26003F40B2 /* LaunchScreen.storyboard */ = {
+		2613A9DC2A02E0AE009E56B9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				269B6AD729FEEA26003F40B2 /* Base */,
+				2613A9DD2A02E0AE009E56B9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -174,7 +174,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		269B6ADA29FEEA26003F40B2 /* Debug */ = {
+		2613A9E02A02E0AE009E56B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +234,7 @@
 			};
 			name = Debug;
 		};
-		269B6ADB29FEEA26003F40B2 /* Release */ = {
+		2613A9E12A02E0AE009E56B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -288,7 +288,7 @@
 			};
 			name = Release;
 		};
-		269B6ADD29FEEA26003F40B2 /* Debug */ = {
+		2613A9E32A02E0AE009E56B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -297,21 +297,18 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MGCAWMJL7W;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Clipper/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Clipper;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_FILE = Clipper2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Clipper.Clipper;
+				PRODUCT_BUNDLE_IDENTIFIER = Clipper.Clipper2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -319,7 +316,7 @@
 			};
 			name = Debug;
 		};
-		269B6ADE29FEEA26003F40B2 /* Release */ = {
+		2613A9E42A02E0AE009E56B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -328,21 +325,18 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MGCAWMJL7W;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Clipper/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Clipper;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_FILE = Clipper2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Clipper.Clipper;
+				PRODUCT_BUNDLE_IDENTIFIER = Clipper.Clipper2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -353,25 +347,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		269B6AC329FEEA25003F40B2 /* Build configuration list for PBXProject "Clipper" */ = {
+		2613A9C92A02E0AD009E56B9 /* Build configuration list for PBXProject "Clipper2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				269B6ADA29FEEA26003F40B2 /* Debug */,
-				269B6ADB29FEEA26003F40B2 /* Release */,
+				2613A9E02A02E0AE009E56B9 /* Debug */,
+				2613A9E12A02E0AE009E56B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		269B6ADC29FEEA26003F40B2 /* Build configuration list for PBXNativeTarget "Clipper" */ = {
+		2613A9E22A02E0AE009E56B9 /* Build configuration list for PBXNativeTarget "Clipper2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				269B6ADD29FEEA26003F40B2 /* Debug */,
-				269B6ADE29FEEA26003F40B2 /* Release */,
+				2613A9E32A02E0AE009E56B9 /* Debug */,
+				2613A9E42A02E0AE009E56B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 269B6AC029FEEA25003F40B2 /* Project object */;
+	rootObject = 2613A9C62A02E0AD009E56B9 /* Project object */;
 }
